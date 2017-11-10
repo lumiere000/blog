@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<body>
+<a href="{{ post.url }}"></a>
+
+<a href="'+store[ref].link+'" class="post-title">
+
+<a href="'{{post.url}}'" class="post-title">
+  
+![search]({{ post.url | absolute_url }})
+
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="/blog{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+</body>

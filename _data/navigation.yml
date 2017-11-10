@@ -1,0 +1,20 @@
+# Belongs at: /_data/navigation.yml
+- title: Home
+  url: /
+  icon: "<i class='fa fa-home' aria-hidden='true'></i>"
+
+- title: Posts
+  url: /posts
+  icon: "<i class='fa fa-file-text-o' aria-hidden='true'></i>"
+
+- title: About
+  url: /about
+  icon: "<i class='fa fa-user' aria-hidden='true'></i>"
+  
+- title: Contact
+  url: /contact     
+  icon: "<i class='fa fa-envelope-o' aria-hidden='true'></i>"
+  
+- title: Search
+  url: /search
+  icon: "<i class='fa fa-search' aria-hidden='true'></i>"
