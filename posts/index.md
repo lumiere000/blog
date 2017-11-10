@@ -5,9 +5,9 @@ title: Posts
 <ul class="entries">
   {% for post in site.posts %}
 
-  <li style='float: right;'>
+  <li>
     <a href="/blog{{ post.url }}">
-      <img src="{{ post.image }}"/>
+    <br>  <img src="{{ post.image }}"/>
       <h3>{{ post.title }}</h3>
     </a>
   </li>
