@@ -27,7 +27,8 @@ github_username:  lumiere000
 
 # Build settings
 markdown: kramdown
-#theme: minima
+#theme: jekyll-theme-slate
+theme: minima
 plugins:
 - jekyll-seo-tag
 - jekyll-sitemap
@@ -55,7 +56,7 @@ modernizr: 2.8.3
 #permalink: /blog/:date
 permalink: :year-:month-:day-:title.html
 
-theme: jekyll-theme-slate
+
 
 
 # Minima date format
