@@ -6,7 +6,7 @@ title: Posts
   {% for post in site.posts %}
 
   <li>
-    <a href="/blog{{ post.url }}">
+    <a href="{{ post.url }}">
     <img src="{{ post.image }}"/> <br>
       <h3>{{ post.title }}</h3>
     </a>
