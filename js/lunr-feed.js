@@ -44,7 +44,7 @@ var store = [{% for post in site.posts %}{
 //  "link": {{ plink | jsonify}},
    "link": {{ post.url | jsonify}},
   "image": {{ pimage | jsonify }},
-  "image": {{ post.image | jsonify }},
+//  "image": {{ post.image | jsonify }},
   "date": {{ post.date | date: '%B %-d, %Y' | jsonify }},
   "category": {{ post.category | jsonify }},
   "excerpt": {{ post.content | strip_html | truncatewords: 20 | jsonify }}
