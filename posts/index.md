@@ -7,7 +7,7 @@ title: Posts
 
   <li>
     <a href="{{ post.url }}">
-    <img src="{{ post.image }}"/> <br>
+    <img src="/post/{{ post.image }}"/> <br>
       <h3>{{ post.title }}</h3>
     </a>
   </li>
