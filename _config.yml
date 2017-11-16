@@ -28,7 +28,7 @@ github_username:  lumiere000
 # Build settings
 markdown: kramdown
 #theme: jekyll-theme-slate
-theme: minima
+#theme: minima
 plugins:
 - jekyll-seo-tag
 - jekyll-sitemap
@@ -61,5 +61,8 @@ permalink: :year-:month-:day-:title.html
 
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
-minima:
-  date_format: "%b %-d, %Y"
+#minima:
+#  date_format: "%b %-d, %Y"
+sass:
+  sass_dir:          _scss
+style: :compressed
