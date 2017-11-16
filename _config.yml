@@ -63,6 +63,7 @@ permalink: :year-:month-:day-:title.html
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 #minima:
 #  date_format: "%b %-d, %Y"
-sass:
-  sass_dir:          _scss
-style: :compressed
+
+#sass:
+#  sass_dir:          _scss
+#style: :compressed
