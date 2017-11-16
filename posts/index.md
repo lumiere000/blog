@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Posts
-permalink: /posts
 ---
 <ul class="entries">
   {% for post in site.posts %}
