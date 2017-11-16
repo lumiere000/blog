@@ -7,7 +7,7 @@ image: img/default.png
 ## docker+zabbix+postgresql+snmptrap+zabbix_agent for ubuntu
 ---
 #### 1. download the dockerfiles and structure :
-[dockerfiles&structure ](dockerize/readme.md)
+[dockerfiles&structure ](https://github.com/lumiere000/blog/blob/master/dockerize/readme.md)
 
 structure :
 ```markdown
@@ -24,7 +24,7 @@ structure :
 
 #### 2. place docker-compose.yml
 
-place [docker-compose.yml](dockerize/docker-compose.yml) to /home/zabbix
+place [docker-compose.yml](https://github.com/lumiere000/blog/blob/master/dockerize/docker-compose.yml) to /home/zabbix
 
 
 #### 3. build and start
