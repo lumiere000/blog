@@ -22,7 +22,7 @@ fullurl %} {% endif %} {% endfor %}
       {% else %}
       <li{{ current }}><a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.icon }}{{ entry.title }}</a></li>
         {% endif %} {% endfor %} {% if site.github_username %}
-        <li style="position: absolute;"><a href="https://github.com/{{ site.github_username }}/blog"> <i class="fa fa-github"></i> GitHub </a> </li>
+        <li style="position: absolute;top: 0;right: 0;width: 10%;"><a href="https://github.com/{{ site.github_username }}/blog"> <i class="fa fa-github"></i> GitHub </a> </li>
         {% endif %}
 
   </ul>
