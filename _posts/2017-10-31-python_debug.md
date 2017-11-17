@@ -4,9 +4,8 @@ title: python debug mode, also can print logs to log file
 image: img/default.png
 ---
 
-## python debug mode, also can print logs to log file
-
 place this on top
+
 ```markdown
 import logging
 logging.basicConfig(filename='/var/log/custom.log', level=logging.DEBUG,
@@ -15,7 +14,8 @@ logger = logging.getLogger(__name__)
 logging.debug('this is a debug message.')
 ```
 
-place your debug message anywhere you like : 
+place your debug message anywhere you like :
+
 ```markdown
 logger.debug('this is the array: %s',sys.argv[1])
 ```

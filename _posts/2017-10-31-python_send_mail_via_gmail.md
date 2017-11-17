@@ -4,23 +4,22 @@ title: using python to send alert mail via gmail tls
 image: img/default.png
 ---
 
-# using python to send alert mail via gmail tls
+## zabbix config
 
-zabbix config
----
 goto administration > media types > create media type
+
 ```markdown
 name : gmail-suth-smtp
 type : Script
 Script name : gmail-suth-smtp.py
-Script parameters : 
+Script parameters :
 {ALERT.SENDTO}
 {ALERT.SUBJECT}
 {ALERT.MESSAGE}
 ```
 
 ```markdown
-goto administration > users > admin > media 
+goto administration > users > admin > media
 add media
 type : gmail-suth-smtp
 send to : your@email.com
@@ -36,9 +35,10 @@ send only to : gmail-suth-smtp
 update
 ```
 
-set log and config file
----
+## set log and config file
+
 ##### create log file for debug (do it inside container if you using docker)
+
 ```markdown
 touch /var/alert_mail.log
 chmod 777 /var/alert_mail.log
@@ -48,13 +48,16 @@ chmod 777 /var/alert_mail.log
 vi /usr/lib/zabbix/alertscripts/gmail-suth-smtp.py
 chmod 755 /usr/lib/zabbix/alertscripts/gmail-suth-smtp.py
 ```
-or if you using my configured docker : 
+
+or if you using my configured docker :
+
 ```markdown
 /home/zabbix/zbx_env/usr/lib/zabbix/alertscripts/gmail-suth-smtp.py
 chmod 755 /home/zabbix/zbx_env/usr/lib/zabbix/alertscripts/gmail-suth-smtp.py
 ```
 
-gmail-suth-smtp.py: 
+gmail-suth-smtp.py:
+
 ```markdown
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
@@ -129,7 +132,9 @@ if __name__ == '__main__':
 ```
 
 test:
+
 ```markdown
 ./gmail-suth-smtp.py test@yourmail.com yoursubject yourmessage
 ```
+
 you can see message log in /var/alert_mail.log

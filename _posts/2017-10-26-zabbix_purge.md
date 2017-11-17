@@ -4,12 +4,12 @@ title: zabbix purge history with postgresql
 image: img/default.png
 ---
 
-## zabbix purge history with postgresql
-
-&#x1F53A; &#x1F53A; &#x1F53A; ___please make sure you want to delete history of zabbix before you execute files in this procedure___ &#x1F53A; &#x1F53A; &#x1F53A; 
+🔺 🔺 🔺 **_please make sure you want to delete history of zabbix before you execute files in this procedure_** 🔺 🔺 🔺
 
 ##### create and config sh file
+
 vi purge.sh
+
 ```markdown
 #!/bin/bash
 
@@ -34,7 +34,9 @@ esac
 ```
 
 ##### create postgresql procedure file
+
 vi purge.sql
+
 ```markdown
 delete FROM alerts where age(to_timestamp(alerts.clock)) > interval '3 days';
 
@@ -60,8 +62,6 @@ delete from history_log where itemid not in (select itemid from items where stat
 
 delete from trends where itemid not in (select itemid from items where status='0');
 delete from trends_uint where itemid not in (select itemid from items where status='0');
-
 ```
 
 ##### 3 days history and 30 days trends will keep in this case
-
