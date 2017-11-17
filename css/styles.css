@@ -19,7 +19,7 @@ a {
 
 a:hover {
   color: #ececec;
-  background-color: darkviolet;
+  text-decoration: none;
 }
 
 #main {
