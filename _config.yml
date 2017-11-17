@@ -68,4 +68,3 @@ permalink: :year-:month-:day-:title.html
 #  sass_dir:          _scss
 #style: :compressed
 #variables:
-baseurl: lumiere000.github.io/blog/
