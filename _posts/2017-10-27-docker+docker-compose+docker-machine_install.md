@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: docker installation for ubuntu
-image: img/default.png
+image: ../img/default.png
 ---
 
 ```markdown

@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: zabbix web monitoring with alert trigger
-image: img/default.png
+image: ../img/default.png
 ---
 
 #### 1. add host

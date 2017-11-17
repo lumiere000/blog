@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: check mounted vmdk filesystem on ubuntu
-image: img/default.png
+image: ../img/default.png
 ---
 
 ```markdown

@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: service host local system and compatTelRunner
-image: img/default.png
+image: ../img/default.png
 ---
 
 Both "service host local system" and "compatTelRunner" are used for windows update.
