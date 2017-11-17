@@ -10,11 +10,15 @@
 - title: About
   url: /about
   icon: "<i class='fa fa-user' aria-hidden='true'></i>"
-  
+
 - title: Contact
-  url: /contact     
+  url: /contact
   icon: "<i class='fa fa-envelope-o' aria-hidden='true'></i>"
-  
+
 - title: Search
   url: /search
   icon: "<i class='fa fa-search' aria-hidden='true'></i>"
+
+- title: Github
+  url: "https://github.com/{{ site.github_username }}"
+  icon: "<i class="fa fa-github"></i> GitHub </a> </li>"
