@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: zabbix purge history with postgresql
-image: ../img/zabbix.png
+image: /img/zabbix.png
 ---
 
 🔺 🔺 🔺 **_please make sure you want to delete history of zabbix before you execute files in this procedure_** 🔺 🔺 🔺

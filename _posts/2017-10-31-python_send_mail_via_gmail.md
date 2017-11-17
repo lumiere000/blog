@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: using python to send alert mail via gmail tls
-image: ../img/python.png
+image: /img/python.png
 ---
 
 ## zabbix config

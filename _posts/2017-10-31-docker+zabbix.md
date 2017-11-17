@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: docker+zabbix+postgresql+snmptrap+zabbix_agent for ubuntu
-image: ../img/docker.png
+image: /img/docker.png
 ---
 
 #### 1. download the dockerfiles and structure :

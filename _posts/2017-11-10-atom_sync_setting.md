@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: atom sync-setting
-image: ../img/atom.jpg
+image: /img/atom.jpg
 ---
 
     1. Download atom
