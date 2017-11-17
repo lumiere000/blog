@@ -37,7 +37,7 @@ update
 
 ## set log and config file
 
-##### create log file for debug (do it inside container if you using docker)
+#### create log file for debug (do it inside container if you using docker)
 
 ```markdown
 touch /var/alert_mail.log
