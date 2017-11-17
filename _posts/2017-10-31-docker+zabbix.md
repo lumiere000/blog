@@ -37,7 +37,7 @@ docker-compose start -d
 
 * * *
 
-##### PHP time zone config
+#### PHP time zone config
 
 goto
 
@@ -54,7 +54,7 @@ date.timezone=Asia/Hong_Kong
 
 * * *
 
-##### rebuild container without cache
+#### rebuild container without cache
 
 ```markdown
 docker-compose build --no-cache

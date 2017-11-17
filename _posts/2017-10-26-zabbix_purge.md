@@ -6,7 +6,7 @@ image: img/default.png
 
 🔺 🔺 🔺 **_please make sure you want to delete history of zabbix before you execute files in this procedure_** 🔺 🔺 🔺
 
-##### create and config sh file
+#### create and config sh file
 
 vi purge.sh
 
@@ -33,7 +33,7 @@ psql -Uzabbix -dzabbix -a -f "./purge.sql"
 esac
 ```
 
-##### create postgresql procedure file
+#### create postgresql procedure file
 
 vi purge.sql
 
@@ -64,4 +64,4 @@ delete from trends where itemid not in (select itemid from items where status='0
 delete from trends_uint where itemid not in (select itemid from items where status='0');
 ```
 
-##### 3 days history and 30 days trends will keep in this case
+#### 3 days history and 30 days trends will keep in this case
