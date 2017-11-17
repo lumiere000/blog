@@ -22,6 +22,9 @@
 
       <footer>
           &copy; {{ site.time | date: '%Y' }}. All rights reserved.
+          {% if site.github_username %}
+            <li style='float: right;'><a href="https://github.com/{{ site.github_username }}"> <i class="fa fa-github"></i> GitHub </a> </li>
+          {% endif %}
       </footer>
     </div>
 {% include analytics.html %}

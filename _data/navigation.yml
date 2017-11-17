@@ -18,7 +18,3 @@
 - title: Search
   url: /search
   icon: "<i class='fa fa-search' aria-hidden='true'></i>"
-
-- title: Github
-  url: "https://github.com/{{ site.github_username }}"
-  icon: "<i class="fa fa-github"></i> GitHub </a> </li>"
