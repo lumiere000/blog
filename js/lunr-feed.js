@@ -1,6 +1,6 @@
--- -
+---
 
--- -
+---
 // builds lunr
 var index = lunr(function() {
   this.field('title')
