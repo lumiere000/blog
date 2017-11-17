@@ -19,7 +19,7 @@ a {
 
 a:hover {
   color: #ececec;
-  text-decoration: underline;
+  background-color: darkviolet;
 }
 
 #main {
@@ -64,7 +64,7 @@ ul.entries img {
 
 ul.entries li h3 {
   position: absolute;
-  bottom: -13px;
+  bottom: -10px;
   left: 17px;
   font-size: 1em;
 }
