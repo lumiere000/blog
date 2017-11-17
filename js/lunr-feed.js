@@ -66,7 +66,7 @@ $(document).ready(function() {
     // Loop through, match, and add results
     for (var item in result) {
       var ref = result[item].ref;
-      var searchitem = '<div class="result"><img src="'+store[ref].image+'"  class="result-img"><div class="result-body"><a href="'+store[ref].link+'" class="post-title">'+store[ref].title+'</a><div class="post-date small">'+store[ref].category+' &times; '+store[ref].date+'</div><p>'+store[ref].excerpt+'</p></div>';
+      var searchitem = '<div class="result"><img src="'+store[ref].image+'"height="50" width="50"  class="result-img"><div class="result-body"><a href="'+store[ref].link+'" class="post-title">'+store[ref].title+'</a><div class="post-date small">'+store[ref].category+' &times; '+store[ref].date+'</div><p>'+store[ref].excerpt+'</p></div>';
 //alt="'+store[ref].title+'"
       resultdiv.append(searchitem);
     }
