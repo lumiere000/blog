@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: docker bridge
-image: ../img/default.png
+image: ../img/docker.png
 ---
 
 useful when there is no nmlic and brctl installed or configured but still bridge running, and they still here after reboot

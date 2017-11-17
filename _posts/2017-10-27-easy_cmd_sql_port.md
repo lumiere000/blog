@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: allow sql port by windows command prompt
-image: ../img/default.png
+image: ../img/sql.png
 ---
 
 run cmd as admin
