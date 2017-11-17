@@ -33,7 +33,7 @@
             </ul>
         </li>
         {% else %}
-        <li{{ current }}><a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.icon }}</a></li>
+        <li{{ current }}><a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.icon }}{{ entry.title }}</a></li>
         {% endif %}
     {% endfor %}
     </ul>
