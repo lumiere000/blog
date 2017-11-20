@@ -4,8 +4,9 @@ title: elasticsearch+logstash+kibana
 image: /img/elasticsearch.png
 ---
 
-1. download the zip file from : [https://github.com/deviantony/docker-elk](https://github.com/deviantony/docker-elk)
-2. unzip to /home/elk/
+download the zip file from : [https://github.com/deviantony/docker-elk](https://github.com/deviantony/docker-elk)
+
+unzip to /home/elk/
 
 ```
 Folder Structure :
@@ -23,7 +24,7 @@ Folder Structure :
 and don't forget .env and .travis.yml
 ```
 
-3. modify elasticsearch volumes :
+modify elasticsearch volumes :
 
 ```
 volumes:
@@ -31,14 +32,14 @@ volumes:
  - ./elasticsearch/data:/usr/share/elasticsearch/data
 ```
 
-4. build and run
+build and run
 
 ```
 cd /homoe/elk
 docker-compose up -d
 ```
 
-5. config and data files:
+config and data files:
 
   ```
    elasticsearch config file:
