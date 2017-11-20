@@ -41,11 +41,11 @@ docker-compose up -d
 
 config and data files:
 
-  ```
-   elasticsearch config file:
-  /home/elk/elasticsearch/config/elasticsearch.yml
-   kibana config file:
-  /home/elk/kibana/config/kibana.yml
-   elasticsearch data folder:
-  /home/elk/elasticsearch/data
-  ```
+```
+elasticsearch config file:
+/home/elk/elasticsearch/config/elasticsearch.yml
+kibana config file:
+/home/elk/kibana/config/kibana.yml
+elasticsearch data folder:
+/home/elk/elasticsearch/data
+```
