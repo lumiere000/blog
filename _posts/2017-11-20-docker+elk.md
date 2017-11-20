@@ -23,6 +23,7 @@ Folder Structure :
 and don't forget .env and .travis.yml
 ```
 3. modify elasticsearch volumes :
+
 ```
       volumes:
       - ./elasticsearch/config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
