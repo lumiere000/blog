@@ -28,4 +28,5 @@ usedMemory = [Math]::Round(((Get-VM $_.Name | Get-Stat -Stat mem.usage.average -
 } | Export-Csv "C:\VM-report.csv" -NoTypeInformation -UseCulture
 ```
 
-reference link : [http://vstrong.info/2014/11/18/powercli-average-cpu-memory-network-and-disk-usage/])(http://vstrong.info/2014/11/18/powercli-average-cpu-memory-network-and-disk-usage/)
+reference link :
+[http://vstrong.info/2014/11/18/powercli-average-cpu-memory-network-and-disk-usage/](http://vstrong.info/2014/11/18/powercli-average-cpu-memory-network-and-disk-usage/)
