@@ -4,7 +4,7 @@ title: use vmcli to get vminfo
 image: /img/vm.jpg
 ---
 
-####use vmcli to get both assigned and used cpu memory and harddisk information and gen a csv report
+use vmcli to get both assigned and used cpu memory and harddisk information and gen a csv report
 
 1. install Windows Management Framework 4.0 : [https://www.microsoft.com/en-us/download/details.aspx?id=40855](https://www.microsoft.com/en-us/download/details.aspx?id=40855) (don't try to get 3.0, the patch cause my windows 7 sp1 crashed)
 2. install vmware powercli 6.5 : [https://my.vmware.com/web/vmware/details?downloadGroup=PCLI650R1&productId=614](https://my.vmware.com/web/vmware/details?downloadGroup=PCLI650R1&productId=614)
