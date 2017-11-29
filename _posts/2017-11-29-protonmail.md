@@ -2,6 +2,7 @@
 layout: posts
 title: ProtonaMail - a more secure choose
 image: /img/protonmail.png
+tags: mail security website
 ---
 
 ProtonMail is an end-to-end encrypted email, it uses client-side encryption to protect email contents and user data before they are sent to ProtonMail servers, in contrast to other common email providers such as Gmail and Hotmail. That means you cannot decrypt during transfer, even ISP and protonmail themselves cannot decrypt (at least at prensent). Their datacentre located at Switzerland, so they will not effected by US government like Lavabit.

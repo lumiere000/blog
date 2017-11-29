@@ -2,6 +2,7 @@
 layout: posts
 title: kaspersky self defense
 image: /img/kaspersky.png
+tags: security kaspersky
 ---
 
 you cannot click or touch kaspersky when you are in remote session or teamviewer, vnc

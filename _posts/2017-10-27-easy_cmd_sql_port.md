@@ -2,6 +2,7 @@
 layout: posts
 title: allow sql port by windows command prompt
 image: /img/sql.png
+tags: windows sql firewall security
 ---
 
 run cmd as admin

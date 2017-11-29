@@ -2,6 +2,7 @@
 layout: posts
 title: python debug mode, also can print logs to log file
 image: /img/python.png
+tags: python debug logs
 ---
 
 place this on top
