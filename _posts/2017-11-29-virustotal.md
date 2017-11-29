@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: online file anti-virus scanning
-image: /img/virustotal.png
+image: /img/virustotal.jpg
 tags: security tools website
 ---
 
