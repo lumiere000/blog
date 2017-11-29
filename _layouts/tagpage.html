@@ -6,14 +6,9 @@ layout: default
 <h1>Tag: {{ page.tag }}</h1>
 <ul style="list-style-type: none;" >
 {% for post in site.tags[page.tag] %}
-this.add({
-  title: {{post.title | jsonify}},
-  category: {{post.category | jsonify}},
-  content: {{post.content | strip_html | jsonify}},
-  tags: {{post.tags | jsonify}},
-  id: {{count}}
-});
- {% assign count = count | plus: 1 %}
- {% endfor %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})<br>
+    {{ post.description }}
+  </li>
+{% endfor %}
 </ul>
 </div>
