@@ -20,6 +20,11 @@ chmod u+x install.sh
 sudo ./install.sh -i
 ```
 
+check SEP running :
+
+```
+ps -aux |grep -i symantec
+```
 
 reference link :
 
