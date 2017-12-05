@@ -1,3 +1,4 @@
+get your vsphere login with read only permission for the macros.
 Create a esxi host with Template Virt VMware, set following :
 
 To use VMware simple checks the host must have the following user macros defined,
