@@ -35,3 +35,5 @@ there is an enhanced template of vmware monitoring and auto discover
 get it here : [https://github.com/lumiere000/blog/tree/master/zabbix_template/Template-Virt-VMware][https://github.com/lumiere000/blog/tree/master/zabbix_template/Template-Virt-VMware]
 
 get your vsphere login with read only permission and fill in the macros.
+
+wait a minute to 

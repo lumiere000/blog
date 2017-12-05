@@ -1,3 +1,5 @@
+Create a esxi host with Template Virt VMware, set following :
+
 To use VMware simple checks the host must have the following user macros defined,
 after import these 3 templates, go to configuration > templates
 select Template Virt VMware > Macros
@@ -7,6 +9,8 @@ select Template Virt VMware > Macros
 {$PASSWORD} - VMware service {$USERNAME} user password
 
 also add these 3 macros to Template Virt VMware Hypervisor and Template Virt VMware Guest
+
+Now wait about a minute, let your esxi host to login vsphere, it will get some basic information if it succeed. Then you need to wait a about an hour to auto discover and obtain information form vm guest.
 
 Template virt VMware using Low-level discovery, discovered guest will use Template Virt VMware Guest, discovered host will use Template Virt VMware Hypervisor.
 
