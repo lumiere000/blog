@@ -7,7 +7,7 @@ tags: docker zabbix ubuntu monitoring vmware
 #### vm monitoring
 
 according to our docker+zabbix post, there is an advanced use to monitor vmware
-[docker+zabbix+postgresql+snmptrap+zabbix_agent for ubuntu](../2017-10-31-docker+zabbix.md)
+[docker+zabbix+postgresql+snmptrap+zabbix_agent for ubuntu](../2017-10-31-docker+zabbix.html)
 
 #### docker or zabbix_server.conf setting
 
