@@ -19,4 +19,4 @@ Template virt VMware using Low-level discovery, discovered guest will use Templa
 
 This template only contain auto discover and performance monitor, trigger and alert need another config.
 
-also see zabbix_server.conf for docker : [../_posts\2017-12-05-zabbix_vm_monitoring.md] [-zabbix_vm_monitoring]
+also see zabbix_server.conf for docker : [https://github.com/lumiere000/blog/blob/master/_posts/2017-12-05-zabbix_vm_monitoring.md][https://github.com/lumiere000/blog/blob/master/_posts/2017-12-05-zabbix_vm_monitoring.md]
