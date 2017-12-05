@@ -32,7 +32,7 @@ VMwareCacheSize=128M
 #### zabbix template
 
 there is an enhanced template of vmware monitoring and auto discover
-get it here : [https://github.com/lumiere000/blog/tree/master/zabbix_template/Template-Virt-VMware][https://github.com/lumiere000/blog/tree/master/zabbix_template/Template-Virt-VMware]
+get it here : [https://github.com/lumiere000/blog/tree/master/zabbix_template/Template-Virt-VMware]
 
 get your vsphere login with read only permission for the macros.
 Create a esxi host with Template Virt VMware, set following :
