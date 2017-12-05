@@ -42,7 +42,9 @@ after import these 3 templates, go to configuration > templates
 select Template Virt VMware > Macros
 
 {$URL} - VMware service (vCenter or ESX hypervisor) SDK URL (https://servername/sdk).
+
 {$USERNAME} - VMware service user name
+
 {$PASSWORD} - VMware service {$USERNAME} user password
 
 also add these 3 macros to Template Virt VMware Hypervisor and Template Virt VMware Guest
