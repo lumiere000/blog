@@ -37,6 +37,8 @@ get it here : [https://github.com/lumiere000/blog/tree/master/zabbix_template/Te
 get your vsphere login with read only permission for the macros.
 Create a esxi host with Template Virt VMware, set following :
 
+use {HOST.NAME} for your DNS name of agent and snmp interaces. It will let your discovered host use visible name for your agent and snmp interface. 
+
 To use VMware simple checks the host must have the following user macros defined,
 after import these 3 templates, go to configuration > templates
 select Template Virt VMware > Macros
