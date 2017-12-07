@@ -76,3 +76,9 @@ apt-get install curl
 ```
 
 or modify your Dockerfile
+
+reference link :
+
+https://blog.apar.jp/zabbix/5892/
+
+http://chienleebug.blogspot.hk/2017/03/zabbixalarm-to-line-notify.html
