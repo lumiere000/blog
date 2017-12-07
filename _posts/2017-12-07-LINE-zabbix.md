@@ -68,3 +68,11 @@ you can test line notfiy api by running
 
 for troubleshooting you can goto zabbix Reports > Action log
 to see your message status
+
+You need curl for line notify api to run, install by
+
+```
+apt-get install curl
+```
+
+or modify your Dockerfile
