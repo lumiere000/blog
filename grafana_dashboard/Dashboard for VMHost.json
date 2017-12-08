@@ -452,7 +452,7 @@
               },
               "functions": [],
               "group": {
-                "filter": "group"
+                "filter": "$group"
               },
               "hide": false,
               "host": {
@@ -658,6 +658,7 @@
           "lines": true,
           "linewidth": 2,
           "links": [],
+          "maxDataPoints": "100",
           "minSpan": null,
           "nullPointMode": "null",
           "percentage": false,
@@ -682,7 +683,7 @@
                 "filter": "$host"
               },
               "item": {
-                "filter": "/$netif/"
+                "filter": "/percentage/"
               },
               "mode": 0,
               "options": {
@@ -699,7 +700,7 @@
           "thresholds": [],
           "timeFrom": null,
           "timeShift": null,
-          "title": "Disk usage",
+          "title": "% Free Disk",
           "tooltip": {
             "shared": true,
             "sort": 0,
@@ -715,7 +716,7 @@
           },
           "yaxes": [
             {
-              "format": "bytes",
+              "format": "percent",
               "label": "",
               "logBase": 1,
               "max": null,
@@ -856,8 +857,8 @@
         "options": [],
         "query": "*",
         "refresh": 1,
-        "regex": "",
-        "sort": 0,
+        "regex": "/^(?!abc|.*demo|.*test|.*Hypervisors|.*esxi|.*Lab|.*Templates)/",
+        "sort": 1,
         "tagValuesQuery": "",
         "tags": [],
         "tagsQuery": "",
@@ -937,5 +938,5 @@
   },
   "timezone": "browser",
   "title": "Dashboard for VMHost",
-  "version": 4
+  "version": 6
 }
