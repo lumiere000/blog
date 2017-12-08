@@ -572,9 +572,9 @@
                     ]
                   },
                   "params": [
-                    "0.00000001"
+                    "0.000001"
                   ],
-                  "text": "scale(0.00000001)"
+                  "text": "scale(0.000001)"
                 }
               ],
               "group": {
@@ -620,7 +620,7 @@
             {
               "decimals": 1,
               "format": "none",
-              "label": "GHz",
+              "label": "MHz",
               "logBase": 1,
               "max": null,
               "min": null,
@@ -938,5 +938,5 @@
   },
   "timezone": "browser",
   "title": "Dashboard for VMHost",
-  "version": 6
+  "version": 7
 }
