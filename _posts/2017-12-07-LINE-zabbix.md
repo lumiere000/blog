@@ -66,6 +66,8 @@ you can test line notfiy api by running
 /usr/lib/zabbix/alertscripts/LINE_Notify.sh
 ```
 
+You need add the user "LINE Nodify" to your group if your alert is sending to a line group.
+
 for troubleshooting you can goto zabbix Reports > Action log
 to see your message status
 
