@@ -48,6 +48,8 @@ WORKDIR /var/lib/zabbix/snmptraps/
 VOLUME ["/var/lib/zabbix/snmptraps", "/var/lib/zabbix/mibs"]
 
 ADD conf/etc/supervisor/ /etc/supervisor/
+#ADD supervisord.conf /etc/supervisor/supervisord.conf
 ADD conf/etc/logrotate.d/zabbix_snmptraps /etc/logrotate.d/
+#ADD logrotate.d/zabbix_snmptraps /etc/logrotate/logrotate.conf
 
 CMD ["/usr/bin/supervisord", "-c", "/etc/supervisor/supervisord.conf"]

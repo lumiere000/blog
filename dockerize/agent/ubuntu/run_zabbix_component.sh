@@ -26,7 +26,7 @@ ZBX_SERVER_HOST=${ZBX_SERVER_HOST:-"zabbix-server"}
 ZBX_SERVER_PORT=${ZBX_SERVER_PORT:-"10051"}
 
 # Default timezone for web interface
-PHP_TZ=${PHP_TZ:-"Europe/Riga"}
+PHP_TZ=${PHP_TZ:-"Asia/Hong_Kong"}
 
 # Default directories
 # User 'zabbix' home directory

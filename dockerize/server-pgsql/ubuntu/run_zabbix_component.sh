@@ -24,9 +24,14 @@ ZBX_SERVER_NAME=${ZBX_SERVER_NAME:-"Zabbix docker"}
 ZBX_SERVER_HOST=${ZBX_SERVER_HOST:-"zabbix-server"}
 # Default Zabbix server port number
 ZBX_SERVER_PORT=${ZBX_SERVER_PORT:-"10051"}
+# for vm
+ZBX_STARTVMWARECOLLECTORS=${ZBX_STARTVMWARECOLLECTORS:-"250"}
+ZBX_VMWAREFREQUENCY=${ZBX_VMWAREFREQUENCY:-"180"}
+ZBX_VMWAREPERFFREQUENCY=${ZBX_VMWAREPERFFREQUENCY:-"180"}
+ZBX_VMWARECACHESIZE=${ZBX_VMWARECACHESIZE:-"128M"}
 
 # Default timezone for web interface
-PHP_TZ=${PHP_TZ:-"Europe/Riga"}
+PHP_TZ=${PHP_TZ:-"Asia/Hong_Kong"}
 
 # Default directories
 # User 'zabbix' home directory
@@ -717,6 +722,7 @@ prepare_zbx_web_config() {
         -e "s/{ZBX_SERVER_HOST}/${ZBX_SERVER_HOST}/g" \
         -e "s/{ZBX_SERVER_PORT}/${ZBX_SERVER_PORT}/g" \
         -e "s/{ZBX_SERVER_NAME}/$server_name/g" \
+#        -e "s/{ZBX_STARTVMWARECOLLECTORS}/$ZBX_STARTVMWARECOLLECTORS/g" \
     "$ZBX_WEB_CONFIG"
 
     [ "$db_type" = "postgresql" ] && sed -i "s/MYSQL/POSTGRESQL/g" "$ZBX_WEB_CONFIG"

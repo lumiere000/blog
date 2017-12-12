@@ -35,6 +35,7 @@ RUN locale-gen $LC_ALL && \
     mkdir -p /usr/share/doc/zabbix-server-${DB_TYPE} && \
     apt-get ${APT_FLAGS_COMMON} update && \
     apt-get ${APT_FLAGS_PERSISTANT} install \
+            curl \
             supervisor \
             snmp-mibs-downloader \
             postgresql-client \

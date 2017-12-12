@@ -24,14 +24,9 @@ ZBX_SERVER_NAME=${ZBX_SERVER_NAME:-"Zabbix docker"}
 ZBX_SERVER_HOST=${ZBX_SERVER_HOST:-"zabbix-server"}
 # Default Zabbix server port number
 ZBX_SERVER_PORT=${ZBX_SERVER_PORT:-"10051"}
-# for vm
-ZBX_STARTVMWARECOLLECTORS=${ZBX_STARTVMWARECOLLECTORS:-"250"}
-ZBX_VMWAREFREQUENCY=${ZBX_VMWAREFREQUENCY:-"180"}
-ZBX_VMWAREPERFFREQUENCY=${ZBX_VMWAREPERFFREQUENCY:-"180"}
-ZBX_VMWARECACHESIZE=${ZBX_VMWARECACHESIZE:-"128M"}
 
 # Default timezone for web interface
-PHP_TZ=${PHP_TZ:-"Europe/Riga"}
+PHP_TZ=${PHP_TZ:-"Asia/Hong_Kong"}
 
 # Default directories
 # User 'zabbix' home directory

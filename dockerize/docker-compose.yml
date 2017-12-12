@@ -145,6 +145,22 @@ services:
     - /etc/localtime:/etc/localtime:ro
     - /etc/timezone:/etc/timezone:ro
 
+ grafana-xxl:
+  image: monitoringartist/grafana-xxl:latest
+  ports:
+   - "3000:3000"
+  volumes:
+   - ./grafana/data:/var/lib/grafana
+  networks:
+    zbx_net:
+     aliases:
+      - zabbix-server
+      - zabbix-server-pgsql
+      - zabbix-server-ubuntu-pgsql
+      - zabbix-server-pgsql-ubuntu
+      - postgres-server
+      - pgsql-server
+      - pgsql-database
 
 networks:
   zbx_net:
