@@ -65,6 +65,8 @@ date.timezone=Asia/Hong_Kong
 
 #### rebuild container without cache
 
+only use it if you want to rebuild everything, it takes a long time
+
 ```markdown
 docker-compose build --no-cache
 ```
