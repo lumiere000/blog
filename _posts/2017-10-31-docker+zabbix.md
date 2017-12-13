@@ -27,7 +27,7 @@ structure :
 
 place [docker-compose.yml](https://github.com/lumiere000/blog/blob/master/dockerize/docker-compose.yml) to /home/zabbix
 
-or 
+or
 simply
 ```
 cd /home
@@ -39,7 +39,7 @@ tar -zxv -f zabbix.tar.gz -C .
 
 ```markdown
 cd /home/zabbix
-docker-compose start -d
+docker-compose up -d
 ```
 
 ### useful things
