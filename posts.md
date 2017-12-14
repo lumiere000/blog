@@ -1,5 +1,5 @@
 ---
-layout: no-title
+layout: default
 title: Posts
 permalink: /posts
 ---
