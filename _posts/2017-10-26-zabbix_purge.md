@@ -11,7 +11,7 @@ tags: zabbix postgresql shellscript tools
 
 vi purge.sh
 
-```markdown
+```
 #!/bin/bash
 
 read -r -p "Are You Sure to purge old data from zabbix? [Y/n] " input
@@ -38,7 +38,7 @@ esac
 
 vi purge.sql
 
-```markdown
+```
 delete FROM alerts where age(to_timestamp(alerts.clock)) > interval '3 days';
 
 delete FROM acknowledges where age(to_timestamp(acknowledges.clock)) > interval '3 days';
