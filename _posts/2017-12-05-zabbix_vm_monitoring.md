@@ -1,15 +1,15 @@
 ---
 layout: posts
-title: docker+zabbix+postgresql+snmptrap+zabbix_agent for ubuntu
+title: zabbix vm monitoring
 image: /img/zabbix.png
 tags: docker zabbix ubuntu monitoring vmware
 ---
-#### vm monitoring
+### vm monitoring
 
 according to our docker+zabbix post, there is an advanced use to monitor vmware
 [docker+zabbix+postgresql+snmptrap+zabbix_agent for ubuntu](../2017-10-31-docker+zabbix.html)
 
-#### docker or zabbix_server.conf setting
+### docker or zabbix_server.conf setting
 
 you can see 4 lines added to /home/zabbix/server-pgsql/ubuntu/run_zabbix_component.sh
 
@@ -29,7 +29,7 @@ VMwarePerfFrequency=180
 VMwareCacheSize=128M
 ```
 
-#### zabbix template
+### zabbix template
 
 there is an enhanced template of vmware monitoring and auto discover
 get it here : [https://github.com/lumiere000/blog/tree/master/zabbix_template/Template-Virt-VMware]
@@ -37,7 +37,7 @@ get it here : [https://github.com/lumiere000/blog/tree/master/zabbix_template/Te
 get your vsphere login with read only permission for the macros.
 Create a esxi host with Template Virt VMware, set following :
 
-use {HOST.NAME} for your DNS name of agent and snmp interaces. It will let your discovered host use visible name for your agent and snmp interface. 
+use {HOST.NAME} for your DNS name of agent and snmp interaces. It will let your discovered host use visible name for your agent and snmp interface.
 
 To use VMware simple checks the host must have the following user macros defined,
 after import these 3 templates, go to configuration > templates
