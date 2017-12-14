@@ -3,27 +3,16 @@
 
   {% include head.html %}
 
-  <body>
-    <div class="container">
-      <header class="masthead">
-        <h3 class="masthead-title">
-          <a href="{{ site.baseurl }}" title="Home">{{ site.title }}</a>
-        </h3>
-        <small>{{ site.tagline }}</small>
-      </header>
-{% include navigation.html%}
-<br>
-<br>
-      <hr>
+  {% include top.html %}
+  <body class="default-page page-{{ page.title | downcase | replace:' ','_' | replace: '!',''  }}">
+  {% include navigation.html%}
+  <div class="container">
+  <div class="content" id="content">
+  {{ content }}
+  </div>
+  </div>
 
-      {{ content }}
-
-      <hr>
-
-      <footer>
-          &copy; {{ site.time | date: '%Y' }}. All rights reserved.          
-      </footer>
-    </div>
-{% include analytics.html %}
-</body>
-</html>
+  {% include end.html %}
+  {% include analytics.html %}
+  </body>
+  </html>
