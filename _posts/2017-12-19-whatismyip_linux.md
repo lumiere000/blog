@@ -13,4 +13,4 @@ dig TXT +short o-o.myaddr.l.google.com @ns1.google.com | awk -F'"' '{ print $2}'
 
 reference link :
 
-[https://www.cyberciti.biz/faq/how-to-find-my-public-ip-address-from-command-line-on-a-linux/]([https://www.cyberciti.biz/faq/how-to-find-my-public-ip-address-from-command-line-on-a-linux/)
+[https://www.cyberciti.biz/faq/how-to-find-my-public-ip-address-from-command-line-on-a-linux/](https://www.cyberciti.biz/faq/how-to-find-my-public-ip-address-from-command-line-on-a-linux/)
