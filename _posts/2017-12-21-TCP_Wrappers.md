@@ -8,7 +8,7 @@ category: security
 
 using hosts.allow and hosts.deny to control sshd connection in ubuntu
 
-please make sure your hosts.allow works first, or you will lost control after create hosts.deny. 
+please make sure your hosts.allow works first, or you will lost control after create hosts.deny.
 
 adding your ip range which allow using sshd for example 192.168.0.1/24 :
 
@@ -37,4 +37,5 @@ netstat -tunp
 ```
 
 reference link :
+
 [https://www.centos.org/docs/rhel-rg-en-3/s1-tcpwrappers-access.html](https://www.centos.org/docs/rhel-rg-en-3/s1-tcpwrappers-access.html)
