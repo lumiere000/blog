@@ -3,6 +3,7 @@ layout: posts
 title: service host local system and compatTelRunner
 image: /img/windows.png
 tags: windows performance config
+category: windows
 ---
 
 Both "service host local system" and "compatTelRunner" are used for windows update.

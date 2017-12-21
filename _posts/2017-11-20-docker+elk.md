@@ -3,6 +3,7 @@ layout: posts
 title: elasticsearch+logstash+kibana
 image: /img/elasticsearch.png
 tags: docker elasticsearch logstash kibana
+category: docker
 ---
 
 download the zip file from : [https://github.com/deviantony/docker-elk](https://github.com/deviantony/docker-elk)

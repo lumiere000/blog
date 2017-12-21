@@ -3,6 +3,7 @@ layout: posts
 title: zabbix web monitoring with alert trigger
 image: ../img/zabbix.png
 tags: zabbix monitoring config
+category: zabbix
 ---
 
 #### 1. add host

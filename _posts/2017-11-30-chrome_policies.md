@@ -3,9 +3,10 @@ layout: posts
 title: chrome policies delete
 image: /img/chrome.jpg
 tags: security tools website windows batch
+category: security
 ---
 
-Some adware or homepage kidnap software may using chrome policies, after clearing the extensions and temp, cache, even reinstall chrome cannot solve the problem, you may try this. 
+Some adware or homepage kidnap software may using chrome policies, after clearing the extensions and temp, cache, even reinstall chrome cannot solve the problem, you may try this.
 
 create this batch file and run as admin. Or run cmd as admin then cd to this file location and execute.
 

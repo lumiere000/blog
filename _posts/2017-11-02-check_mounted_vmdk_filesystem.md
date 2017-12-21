@@ -2,7 +2,8 @@
 layout: posts
 title: check mounted vmdk filesystem on ubuntu
 image: /img/ubuntu.png
-tags: shellscipt ubuntu
+tags: shellscript ubuntu
+category: shellscript
 ---
 
 ```markdown

@@ -3,6 +3,7 @@ layout: posts
 title: docker installation for ubuntu
 image: /img/docker.png
 tags: docker installation ubuntu
+category: docker
 ---
 
 ```markdown

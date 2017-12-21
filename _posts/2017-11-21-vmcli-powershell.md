@@ -3,6 +3,7 @@ layout: posts
 title: use vmcli to get vminfo
 image: /img/vm.jpg
 tags: vmware powershell tools installation windows
+category: vmware
 ---
 
 use vmcli to get both assigned and used cpu memory and harddisk information and gen a csv report

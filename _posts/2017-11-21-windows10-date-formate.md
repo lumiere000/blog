@@ -3,6 +3,7 @@ layout: posts
 title: windows 10 date format
 image: /img/windows.png
 tags: windows config
+category: windows
 ---
 
 If there is no other date format option or cannot change date format to your favourite in windows 10 setting, follow me 😎

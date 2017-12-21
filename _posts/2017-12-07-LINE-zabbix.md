@@ -3,6 +3,7 @@ layout: posts
 title: use line messager for zabbix alert
 image: /img/line.png
 tags: zabbix line ubuntu monitoring alert
+category: zabbix
 ---
 
 login and get a line token from https://notify-bot.line.me

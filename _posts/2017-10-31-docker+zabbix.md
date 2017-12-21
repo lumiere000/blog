@@ -3,6 +3,7 @@ layout: posts
 title: docker+zabbix+postgresql+snmptrap+zabbix_agent for ubuntu
 image: /img/docker.png
 tags: docker zabbix postgresql ubuntu monitoring
+category: docker
 ---
 
 #### 1. download the dockerfiles and structure :

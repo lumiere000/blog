@@ -3,6 +3,7 @@ layout: posts
 title: tar with multi directory exclude
 image: /img/tools.jpg
 tags: tools scripts ubuntu shellscript
+category: tools
 ---
 
 There may be some tmp or cache folder you don't need while backup, here is a simple script for tar and exclusion.

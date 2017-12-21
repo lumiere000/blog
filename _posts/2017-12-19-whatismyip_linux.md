@@ -3,6 +3,7 @@ layout: posts
 title: what is my ip address for linux
 image: /img/tools.jpg
 tags: tools scripts ubuntu shellscript google
+category: tools
 ---
 
 There is a way to find your outgoing/public ip using google's ns server, for security reason I do not recommend using curl/wget, using dig command is better :

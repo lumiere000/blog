@@ -3,6 +3,7 @@ layout: posts
 title: remove advanced mass sender
 image: /img/windows.png
 tags: windows spyware antivirus rogue
+category: windows
 ---
 
 while advanced mass sender or mass sender installed, you cannot remove it by a normal way please backup your system and follow the steps :

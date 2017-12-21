@@ -3,6 +3,7 @@ layout: posts
 title: tcpview and process explorer
 image: /img/windows.png
 tags: tools windows security monitoring network
+category: windows
 ---
 
 Since Server2012 task manager become hard to use and details are hided. There are two suggested tools for troubleshooting.

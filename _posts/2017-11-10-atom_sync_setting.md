@@ -3,6 +3,7 @@ layout: posts
 title: atom sync-setting
 image: /img/atom.jpg
 tags: atom tools config
+category: tools
 ---
 
     1. Download atom

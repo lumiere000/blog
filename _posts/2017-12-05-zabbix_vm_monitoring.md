@@ -3,6 +3,7 @@ layout: posts
 title: zabbix vm monitoring
 image: /img/zabbix.png
 tags: docker zabbix ubuntu monitoring vmware
+category: zabbix
 ---
 ### vm monitoring
 
