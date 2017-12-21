@@ -24,6 +24,13 @@ vi /etc/hosts.deny
 sshd:all
 ```
 
+deny all other ip excpet ip range :
+
+```
+vi /etc/hosts.deny
+ALL:ALL EXCEPT 192.168.0.1/24
+```
+
 Other useful command :
 
 find program full path by ps -auxwe
