@@ -9,7 +9,7 @@ category: tools
 Not enough space in system disk, will cause cannot boot and many problems, there is a stupid but easy way to prevent, use fallocate to create a 1GB file, you can delete it to free the disk when there is urgent case.
 
 
-fallocate command baic syntax :
+fallocate command basic syntax :
 
 ```
 fallocate -l Image_Size_Here /path/to/image.img
