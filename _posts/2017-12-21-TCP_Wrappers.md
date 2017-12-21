@@ -40,7 +40,7 @@ ps -auxwe |grep "target pid or port"
 
 find all connection to your machine currently
 ```
-netstat -tunp
+netstat -tunpla
 ```
 
 reference link :
