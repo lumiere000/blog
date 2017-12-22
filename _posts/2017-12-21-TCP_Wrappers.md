@@ -34,14 +34,16 @@ ALL:ALL EXCEPT 192.168.0.1/24
 Other useful command :
 
 find program full path by ps -auxwe
+
 ```
 ps -auxwe |grep "target pid or port"
 ```
 
 find all connection to your machine currently
+
 ```
 netstat -tunpla
-netstat -tunplac <<< monitoring continuously by adding -c 
+netstat -tunplac <<< monitoring continuously by adding -c
 ```
 
 reference link :
