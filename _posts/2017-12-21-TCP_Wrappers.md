@@ -41,6 +41,7 @@ ps -auxwe |grep "target pid or port"
 find all connection to your machine currently
 ```
 netstat -tunpla
+netstat -tunplac <<< monitoring continuously by adding -c 
 ```
 
 reference link :
