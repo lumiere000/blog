@@ -9,9 +9,18 @@ category: vmware
 use vmcli to get both assigned and used cpu memory and harddisk information and gen a csv report
 
 1. install Windows Management Framework 4.0 : [https://www.microsoft.com/en-us/download/details.aspx?id=40855](https://www.microsoft.com/en-us/download/details.aspx?id=40855) (don't try to get 3.0, the patch cause my windows 7 sp1 crashed)
+
 2. install vmware powercli 6.5 : [https://my.vmware.com/web/vmware/details?downloadGroup=PCLI650R1&productId=614](https://my.vmware.com/web/vmware/details?downloadGroup=PCLI650R1&productId=614)
-3. open vmware powercli (not using powershell)
-4. create a powershell file, in this case I named it getvminfo.ps1, place it to c:
+
+4. you must set the 'Execution Policy' of PowerShell to enable it to be able to run scripts, open vmware powercli as administrator(not using powershell), enter :  
+
+```
+Set-ExecutionPolicy RemoteSigned
+```
+
+Restart vmware powercli as administrator
+
+5. create a powershell file, in this case I named it getvminfo.ps1, place it to c:
 
 ```
 connect-viserver -server yourvmname_or_ip
