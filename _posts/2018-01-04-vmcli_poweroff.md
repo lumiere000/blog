@@ -6,7 +6,7 @@ tags: vmware powershell tools installation windows
 category: vmware
 ---
 
-A powershell script can auto detect vm guest which power on, then shutdown and wait until they are all complete. 
+A powershell script can auto detect vm guest which power on, then shutdown and wait until they are all complete. After vm guest shutdown confirmed, hypervisor will shutdown with confirmation.  
 
 create a powershell script file and name it to shutdown.ps1
 
@@ -14,13 +14,15 @@ create a powershell script file and name it to shutdown.ps1
 $vsphere="vcentername/ip"
 $hypervisor="hypervisorname/ip"
 
+$cred = Get-Credential
+
 Get-Module –ListAvailable VMware.VimAutomation.Core* | Import-Module
 
-connect-viserver -server $vsphere
+connect-viserver -server "$vsphere" -Credential $cred
 
-$vmservers=get-vm -location “$hypervisor” | Where-Object {$_.powerstate -eq ‘PoweredOn’}
+$vmservers=get-vm -location "$hypervisor" | Where-Object {$_.powerstate -eq ‘PoweredOn’}
 
-$vmservers | select Name | export-csv c:\servers.csv -NoTypeInformation
+$vmservers | select Name | export-csv c:\temp\servers.csv -NoTypeInformation
 
 $vmservers | Shutdown-VMGuest
 
@@ -41,5 +43,16 @@ $status | select Name
 sleep 5
 }until([string]::IsNullOrWhiteSpace($status))
 
-Write-Host "Shutdown Success"
+Write-Host "Guest Shutdown Success"
+
+Write-Host "VMHost Shutdown Processing"
+
+Stop-VMHost $hypervisor -Confirm
+
+Write-Host "Hypervisor Shutdown Success"
+
+(Read-Host 'Press Enter to exit…')
+
+exit
+
 ```
