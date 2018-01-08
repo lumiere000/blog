@@ -24,9 +24,13 @@ $vmservers=get-vm -location "$hypervisor" | Where-Object {$_.powerstate -eq ‘P
 
 $vmservers | select Name | export-csv c:\temp\servers.csv -NoTypeInformation
 
-$vmservers | Shutdown-VMGuest
+Write-Host "VMGuest are going to shutdown"
 
-#Waiting for Shutdownn to complete
+(Read-Host 'Press Enter to continue…')
+
+$vmservers | Shutdown-VMGuest -Confirm:$false
+
+#Waiting for Shutdown to complete
 
 Write-host "Waiting for Shutdown to complete"
 
@@ -49,7 +53,7 @@ Write-Host "VMHost Shutdown Processing"
 
 Stop-VMHost $hypervisor -Confirm
 
-Write-Host "Hypervisor Shutdown Success"
+Write-Host "VMHost Shutdown Success"
 
 (Read-Host 'Press Enter to exit…')
 
