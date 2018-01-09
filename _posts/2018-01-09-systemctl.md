@@ -6,7 +6,7 @@ tags: shellscript ubuntu
 category: ubuntu
 ---
 
-chkconfig no longer available in Ubuntu, systemctl is an alternate option for Ubuntu.
+chkconfig no longer available in Ubuntu, systemctl is an alternate option for Ubuntu. Unlike sysv-rc-conf, it is an offical way.
 
 List service name :
 
