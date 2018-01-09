@@ -36,6 +36,8 @@ crontab -e
 @reboot (sleep 30s ; cd directory_has_dockercomposeyml ; /usr/local/bin/docker-compose up -d )&
 ```
 
+PS. custom network driver bridge does need "restart: always"
+
 reference link :
 
 [https://stackoverflow.com/questions/43671482/how-to-run-docker-compose-up-d-at-system-start-up](https://stackoverflow.com/questions/43671482/how-to-run-docker-compose-up-d-at-system-start-up)
