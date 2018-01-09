@@ -6,6 +6,12 @@ tags: docker installation ubuntu crontab config
 category: docker
 ---
 
+add docker.service to system startup first :
+
+```
+systemctl enable docker.service
+```
+
 add restart: always like this :
 
 ```
