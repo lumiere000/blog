@@ -37,7 +37,7 @@ volumes:
 build and run
 
 ```
-cd /homoe/elk
+cd /home/elk
 docker-compose up -d
 ```
 
