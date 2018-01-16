@@ -7,8 +7,8 @@
   url: /posts
   icon: "<i class='fa fa-file-text-o' aria-hidden='true'></i>"
 
-- title: About
-  url: /about
+- title: Friends
+  url: /friends
   icon: "<i class='fa fa-user' aria-hidden='true'></i>"
 
 - title: Contact
