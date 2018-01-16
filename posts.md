@@ -10,7 +10,9 @@ permalink: /posts
   <li>
     <a href="{{ post.url }}">
     <img src="{{ post.image }}">
-      <h3>{{ post.title }}</h3>
+      <!-- <h3> -->
+      {{ post.title }}
+      <!--</h3>-->
       <div align="right">{{ post.date | date: '%B %-d, %Y'}}</div>
 
     </a>
