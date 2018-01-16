@@ -63,8 +63,8 @@ ul.entries img {
 }
 
 ul.entries li h3 {
-  position: absolute;
-/*  bottom: -10px; */
+/*  position: absolute; */
+  bottom: -10px;
   left: 17px;
   font-size: 1em;
 }
