@@ -8,10 +8,10 @@ permalink: /posts
   {% for post in site.posts %}
 
   <li>
+  <div align="left">
     <a href="{{ post.url }}">
     <img src="{{ post.image }}"/>
-    <br>
-    <br>
+</div>
       <h3>{{ post.title }}</h3>
       <div align="right">{{ post.date | date: '%B %-d, %Y'}}</div>
 
