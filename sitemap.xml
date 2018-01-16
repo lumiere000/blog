@@ -2,111 +2,111 @@
 <!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
-    <loc>http://geek.serverpit.com/</loc>
+    <loc>http://semonkey.com/</loc>
     <changefreq>always</changefreq>
   </url>
   <url>
-    <loc>http://geek.serverpit.com/contact</loc>
+    <loc>http://semonkey.com/contact</loc>
     <changefreq>always</changefreq>
   </url>
   <url>
-    <loc>http://geek.serverpit.com/about</loc>
+    <loc>http://semonkey.com/about</loc>
     <changefreq>always</changefreq>
   </url>
   <url>
-    <loc>http://geek.serverpit.com/posts</loc>
+    <loc>http://semonkey.com/posts</loc>
     <changefreq>always</changefreq>
   </url>
   <url>
-    <loc>http://geek.serverpit.com/2017-10-26-zabbix_purge.html</loc>
+    <loc>http://semonkey.com/2017-10-26-zabbix_purge.html</loc>
     <changefreq>always</changefreq>
   </url>
   <url>
-    <loc>http://geek.serverpit.com/2017-10-24-zabbix.html</loc>
+    <loc>http://semonkey.com/2017-10-24-zabbix.html</loc>
     <changefreq>always</changefreq>
   </url>
   <url>
-    <loc>http://geek.serverpit.com/2017-10-30-docker_bridge.html</loc>
+    <loc>http://semonkey.com/2017-10-30-docker_bridge.html</loc>
     <changefreq>always</changefreq>
   </url>
   <url>
-    <loc>http://geek.serverpit.com/2017-10-27-easy_cmd_sql_port.html</loc>
+    <loc>http://semonkey.com/2017-10-27-easy_cmd_sql_port.html</loc>
     <changefreq>always</changefreq>
   </url>
   <url>
-    <loc>http://geek.serverpit.com/2017-10-31-python_debug.html</loc>
+    <loc>http://semonkey.com/2017-10-31-python_debug.html</loc>
     <changefreq>always</changefreq>
   </url>
   <url>
-    <loc>http://geek.serverpit.com/2017-10-31-zabbix_web_monitoring.html</loc>
+    <loc>http://semonkey.com/2017-10-31-zabbix_web_monitoring.html</loc>
     <changefreq>always</changefreq>
   </url>
   <url>
-    <loc>http://geek.serverpit.com/2017-10-31-python_send_mail_via_gmail.html</loc>
+    <loc>http://semonkey.com/2017-10-31-python_send_mail_via_gmail.html</loc>
     <changefreq>always</changefreq>
   </url>
   <url>
-    <loc>http://geek.serverpit.com/2017-11-02-check_mounted_vmdk_filesystem.html</loc>
+    <loc>http://semonkey.com/2017-11-02-check_mounted_vmdk_filesystem.html</loc>
     <changefreq>always</changefreq>
   </url>
   <url>
-    <loc>http://geek.serverpit.com/2017-11-07-ipflush.html</loc>
+    <loc>http://semonkey.com/2017-11-07-ipflush.html</loc>
     <changefreq>always</changefreq>
   </url>
   <url>
-    <loc>http://geek.serverpit.com/2017-11-07-compatTelRunner.html</loc>
+    <loc>http://semonkey.com/2017-11-07-compatTelRunner.html</loc>
     <changefreq>always</changefreq>
   </url>
   <url>
-    <loc>http://geek.serverpit.com/2017-11-10-atom_sync_setting.html</loc>
+    <loc>http://semonkey.com/2017-11-10-atom_sync_setting.html</loc>
     <changefreq>always</changefreq>
   </url>
   <url>
-    <loc>http://geek.serverpit.com/2017-11-07-snmp_mibs.html</loc>
+    <loc>http://semonkey.com/2017-11-07-snmp_mibs.html</loc>
     <changefreq>always</changefreq>
   </url>
   <url>
-    <loc>http://geek.serverpit.com/2017-11-10-atom.html</loc>
+    <loc>http://semonkey.com/2017-11-10-atom.html</loc>
     <changefreq>always</changefreq>
   </url>
   <url>
-    <loc>http://geek.serverpit.com/2017-11-16-tree.html</loc>
+    <loc>http://semonkey.com/2017-11-16-tree.html</loc>
     <changefreq>always</changefreq>
   </url>
   <url>
-    <loc>http://geek.serverpit.com/2017-11-15-freedns.html</loc>
+    <loc>http://semonkey.com/2017-11-15-freedns.html</loc>
     <changefreq>always</changefreq>
   </url>
   <url>
-    <loc>http://geek.serverpit.com/2017-11-16-kaspersky_self_defense.html</loc>
+    <loc>http://semonkey.com/2017-11-16-kaspersky_self_defense.html</loc>
     <changefreq>always</changefreq>
   </url>
   <url>
-    <loc>http://geek.serverpit.com/2017-11-21-windows10-date-formate.html</loc>
+    <loc>http://semonkey.com/2017-11-21-windows10-date-formate.html</loc>
     <changefreq>always</changefreq>
   </url>
   <url>
-    <loc>http://geek.serverpit.com/2017-11-22-extract-clonezilla-hfsplus-to-img.html</loc>
+    <loc>http://semonkey.com/2017-11-22-extract-clonezilla-hfsplus-to-img.html</loc>
     <changefreq>always</changefreq>
   </url>
   <url>
-    <loc>http://geek.serverpit.com/2017-11-21-vmcli-powershell.html</loc>
+    <loc>http://semonkey.com/2017-11-21-vmcli-powershell.html</loc>
     <changefreq>always</changefreq>
   </url>
   <url>
-    <loc>http://geek.serverpit.com/2017-11-29-protonmail.html</loc>
+    <loc>http://semonkey.com/2017-11-29-protonmail.html</loc>
     <changefreq>always</changefreq>
   </url>
   <url>
-    <loc>http://geek.serverpit.com/2017-11-29-usb3.0only_pc.html</loc>
+    <loc>http://semonkey.com/2017-11-29-usb3.0only_pc.html</loc>
     <changefreq>always</changefreq>
   </url>
   <url>
-    <loc>http://geek.serverpit.com/2017-11-29-mac_uninstall_app.html</loc>
+    <loc>http://semonkey.com/2017-11-29-mac_uninstall_app.html</loc>
     <changefreq>always</changefreq>
   </url>
   <url>
-    <loc>http://geek.serverpit.com/search/</loc>
+    <loc>http://semonkey.com/search/</loc>
     <changefreq>always</changefreq>
   </url>
 </urlset>
