@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+<rss version="2.0">
+  <channel>
+    <title>
+    
+      Geek &amp;middot; 933K 8|09
+    
+  </title>
+    <link>http://semonkey.com</link>
+    <description />
+    <item>
+      <guid>http://semonkey.com/</guid>
+      <title>
+    
+      Geek &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/friends</guid>
+      <title>
+    
+      Friends &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/friends</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/contact</guid>
+      <title>
+    
+      Contact &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/contact</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/posts</guid>
+      <title>
+    
+      Posts &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/posts</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/search/</guid>
+      <title>
+    
+      Search &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/search/</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/2017-10-24-zabbix.html</guid>
+      <title>
+    
+      zabbix+nginx+postgresql installation for ubuntu 16.04 &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/2017-10-24-zabbix.html</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/2017-10-26-zabbix_purge.html</guid>
+      <title>
+    
+      zabbix purge history with postgresql &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/2017-10-26-zabbix_purge.html</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/2017-10-27-easy_cmd_sql_port.html</guid>
+      <title>
+    
+      allow sql port by windows command prompt &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/2017-10-27-easy_cmd_sql_port.html</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/2017-10-31-python_debug.html</guid>
+      <title>
+    
+      python debug mode, also can print logs to log file &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/2017-10-31-python_debug.html</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/2017-10-31-zabbix_web_monitoring.html</guid>
+      <title>
+    
+      zabbix web monitoring with alert trigger &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/2017-10-31-zabbix_web_monitoring.html</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/2017-11-02-check_mounted_vmdk_filesystem.html</guid>
+      <title>
+    
+      check mounted vmdk filesystem on ubuntu &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/2017-11-02-check_mounted_vmdk_filesystem.html</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/2017-11-07-ipflush.html</guid>
+      <title>
+    
+      ubuntu after changing interface to static &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/2017-11-07-ipflush.html</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/2017-10-30-docker_bridge.html</guid>
+      <title>
+    
+      docker bridge &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/2017-10-30-docker_bridge.html</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/2017-11-07-snmp_mibs.html</guid>
+      <title>
+    
+      ubuntu snmp, mibs install and config &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/2017-11-07-snmp_mibs.html</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/2017-11-10-atom_sync_setting.html</guid>
+      <title>
+    
+      atom sync-setting &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/2017-11-10-atom_sync_setting.html</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/2017-11-15-freedns.html</guid>
+      <title>
+    
+      using freedns to obtain a free subdomain &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/2017-11-15-freedns.html</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/2017-10-31-python_send_mail_via_gmail.html</guid>
+      <title>
+    
+      using python to send alert mail via gmail tls &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/2017-10-31-python_send_mail_via_gmail.html</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/2017-11-16-tree.html</guid>
+      <title>
+    
+      linux tree function &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/2017-11-16-tree.html</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/2017-11-21-windows10-date-formate.html</guid>
+      <title>
+    
+      windows 10 date format &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/2017-11-21-windows10-date-formate.html</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/2017-11-07-compatTelRunner.html</guid>
+      <title>
+    
+      service host local system and compatTelRunner &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/2017-11-07-compatTelRunner.html</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/2017-11-22-extract-clonezilla-hfsplus-to-img.html</guid>
+      <title>
+    
+      combine and extract clonezilla gzip file to img file &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/2017-11-22-extract-clonezilla-hfsplus-to-img.html</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/2017-11-29-protonmail.html</guid>
+      <title>
+    
+      ProtonaMail - a more secure choose &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/2017-11-29-protonmail.html</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/2017-11-10-atom.html</guid>
+      <title>
+    
+      How to connect atom to github &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/2017-11-10-atom.html</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/2017-11-30-chrome_policies.html</guid>
+      <title>
+    
+      chrome policies delete &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/2017-11-30-chrome_policies.html</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/2017-11-29-usb3.0only_pc.html</guid>
+      <title>
+    
+      usb3.0 only pc windows 7 installaion &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/2017-11-29-usb3.0only_pc.html</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/2017-11-16-kaspersky_self_defense.html</guid>
+      <title>
+    
+      kaspersky self defense &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/2017-11-16-kaspersky_self_defense.html</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/2017-12-04-robocopy.html</guid>
+      <title>
+    
+      robocopy for backup file and troubleshoot &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/2017-12-04-robocopy.html</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/2017-11-30-sep-ubuntu.html</guid>
+      <title>
+    
+      Symantec endpoint ubuntu installation &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/2017-11-30-sep-ubuntu.html</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/2017-11-21-vmcli-powershell.html</guid>
+      <title>
+    
+      use vmcli to get vminfo &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/2017-11-21-vmcli-powershell.html</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/2017-12-08-regex.html</guid>
+      <title>
+    
+      useful website for Regular expression testing &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/2017-12-08-regex.html</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/2017-12-05-zabbix_vm_monitoring.html</guid>
+      <title>
+    
+      zabbix vm monitoring &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/2017-12-05-zabbix_vm_monitoring.html</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/2017-11-29-mac_uninstall_app.html</guid>
+      <title>
+    
+      fully uninstall a program in mac os x by using terminal &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/2017-11-29-mac_uninstall_app.html</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/2017-12-14-tar_exclude.html</guid>
+      <title>
+    
+      tar with multi directory exclude &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/2017-12-14-tar_exclude.html</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/2017-12-12-tcpview_process_explorer.html</guid>
+      <title>
+    
+      tcpview and process explorer &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/2017-12-12-tcpview_process_explorer.html</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/2017-11-29-virustotal.html</guid>
+      <title>
+    
+      online file anti-virus scanning &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/2017-11-29-virustotal.html</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/2017-12-21-fallocate.html</guid>
+      <title>
+    
+      fallocate &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/2017-12-21-fallocate.html</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/2017-12-19-whatismyip_linux.html</guid>
+      <title>
+    
+      what is my ip address for linux &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/2017-12-19-whatismyip_linux.html</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/2017-12-04-advanced_mass_sender.html</guid>
+      <title>
+    
+      remove advanced mass sender &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/2017-12-04-advanced_mass_sender.html</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/2018-01-04-vmcli_poweroff.html</guid>
+      <title>
+    
+      use vmcli poweroff guest in vcenter/hypervisor &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/2018-01-04-vmcli_poweroff.html</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/2017-12-21-gzip.html</guid>
+      <title>
+    
+      gzip &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/2017-12-21-gzip.html</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/2017-12-07-LINE-zabbix.html</guid>
+      <title>
+    
+      use line messager for zabbix alert &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/2017-12-07-LINE-zabbix.html</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/2018-01-09-docker_compose_autostartup.html</guid>
+      <title>
+    
+      docker compose auto start after reboot host &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/2018-01-09-docker_compose_autostartup.html</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/2018-01-10-remove_non_using_container.html</guid>
+      <title>
+    
+      remove non-using docker containers &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/2018-01-10-remove_non_using_container.html</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/2017-12-14-esxi5_tty.html</guid>
+      <title>
+    
+      esxi5_tty a tool for dell hardware detail collecting &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/2017-12-14-esxi5_tty.html</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/vmware</guid>
+      <title>Tag: vmware</title>
+      <link>http://semonkey.com/tag/vmware</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/powershell</guid>
+      <title>Tag: powershell</title>
+      <link>http://semonkey.com/tag/powershell</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/2017-12-21-TCP_Wrappers.html</guid>
+      <title>
+    
+      TCP Wrappers &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/2017-12-21-TCP_Wrappers.html</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/endpoint</guid>
+      <title>Tag: endpoint</title>
+      <link>http://semonkey.com/tag/endpoint</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/x64</guid>
+      <title>Tag: x64</title>
+      <link>http://semonkey.com/tag/x64</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/2017-12-21-rkhunter.html</guid>
+      <title>
+    
+      rkhunter &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/2017-12-21-rkhunter.html</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/kaspersky</guid>
+      <title>Tag: kaspersky</title>
+      <link>http://semonkey.com/tag/kaspersky</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/symantec</guid>
+      <title>Tag: symantec</title>
+      <link>http://semonkey.com/tag/symantec</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/2018-01-09-systemctl.html</guid>
+      <title>
+    
+      systemctl usage &amp;middot; 933K 8|09
+    
+  </title>
+      <link>http://semonkey.com/2018-01-09-systemctl.html</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/github</guid>
+      <title>Tag: github</title>
+      <link>http://semonkey.com/tag/github</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/drivers</guid>
+      <title>Tag: drivers</title>
+      <link>http://semonkey.com/tag/drivers</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/batch</guid>
+      <title>Tag: batch</title>
+      <link>http://semonkey.com/tag/batch</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/clonezilla</guid>
+      <title>Tag: clonezilla</title>
+      <link>http://semonkey.com/tag/clonezilla</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/restore</guid>
+      <title>Tag: restore</title>
+      <link>http://semonkey.com/tag/restore</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/backup</guid>
+      <title>Tag: backup</title>
+      <link>http://semonkey.com/tag/backup</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/dns</guid>
+      <title>Tag: dns</title>
+      <link>http://semonkey.com/tag/dns</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/performance</guid>
+      <title>Tag: performance</title>
+      <link>http://semonkey.com/tag/performance</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/mail</guid>
+      <title>Tag: mail</title>
+      <link>http://semonkey.com/tag/mail</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/atom</guid>
+      <title>Tag: atom</title>
+      <link>http://semonkey.com/tag/atom</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/domain</guid>
+      <title>Tag: domain</title>
+      <link>http://semonkey.com/tag/domain</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/website</guid>
+      <title>Tag: website</title>
+      <link>http://semonkey.com/tag/website</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/config</guid>
+      <title>Tag: config</title>
+      <link>http://semonkey.com/tag/config</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/network</guid>
+      <title>Tag: network</title>
+      <link>http://semonkey.com/tag/network</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/docker</guid>
+      <title>Tag: docker</title>
+      <link>http://semonkey.com/tag/docker</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/python</guid>
+      <title>Tag: python</title>
+      <link>http://semonkey.com/tag/python</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/logs</guid>
+      <title>Tag: logs</title>
+      <link>http://semonkey.com/tag/logs</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/debug</guid>
+      <title>Tag: debug</title>
+      <link>http://semonkey.com/tag/debug</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/sql</guid>
+      <title>Tag: sql</title>
+      <link>http://semonkey.com/tag/sql</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/firewall</guid>
+      <title>Tag: firewall</title>
+      <link>http://semonkey.com/tag/firewall</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/security</guid>
+      <title>Tag: security</title>
+      <link>http://semonkey.com/tag/security</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/shellscript</guid>
+      <title>Tag: shellscript</title>
+      <link>http://semonkey.com/tag/shellscript</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/windows</guid>
+      <title>Tag: windows</title>
+      <link>http://semonkey.com/tag/windows</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/tools</guid>
+      <title>Tag: tools</title>
+      <link>http://semonkey.com/tag/tools</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/installation</guid>
+      <title>Tag: installation</title>
+      <link>http://semonkey.com/tag/installation</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/monitoring</guid>
+      <title>Tag: monitoring</title>
+      <link>http://semonkey.com/tag/monitoring</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/ubuntu</guid>
+      <title>Tag: ubuntu</title>
+      <link>http://semonkey.com/tag/ubuntu</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/zabbix</guid>
+      <title>Tag: zabbix</title>
+      <link>http://semonkey.com/tag/zabbix</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/postgresql</guid>
+      <title>Tag: postgresql</title>
+      <link>http://semonkey.com/tag/postgresql</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/nginx</guid>
+      <title>Tag: nginx</title>
+      <link>http://semonkey.com/tag/nginx</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/scripts</guid>
+      <title>Tag: scripts</title>
+      <link>http://semonkey.com/tag/scripts</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/uninstall</guid>
+      <title>Tag: uninstall</title>
+      <link>http://semonkey.com/tag/uninstall</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/terminal</guid>
+      <title>Tag: terminal</title>
+      <link>http://semonkey.com/tag/terminal</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/antivirus</guid>
+      <title>Tag: antivirus</title>
+      <link>http://semonkey.com/tag/antivirus</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/mac</guid>
+      <title>Tag: mac</title>
+      <link>http://semonkey.com/tag/mac</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/rogue</guid>
+      <title>Tag: rogue</title>
+      <link>http://semonkey.com/tag/rogue</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/filesystem</guid>
+      <title>Tag: filesystem</title>
+      <link>http://semonkey.com/tag/filesystem</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/spyware</guid>
+      <title>Tag: spyware</title>
+      <link>http://semonkey.com/tag/spyware</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/google</guid>
+      <title>Tag: google</title>
+      <link>http://semonkey.com/tag/google</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/script</guid>
+      <title>Tag: script</title>
+      <link>http://semonkey.com/tag/script</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/compress</guid>
+      <title>Tag: compress</title>
+      <link>http://semonkey.com/tag/compress</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/alert</guid>
+      <title>Tag: alert</title>
+      <link>http://semonkey.com/tag/alert</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/line</guid>
+      <title>Tag: line</title>
+      <link>http://semonkey.com/tag/line</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/dell</guid>
+      <title>Tag: dell</title>
+      <link>http://semonkey.com/tag/dell</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/esxi</guid>
+      <title>Tag: esxi</title>
+      <link>http://semonkey.com/tag/esxi</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>http://semonkey.com/tag/rkhunter</guid>
+      <title>Tag: rkhunter</title>
+      <link>http://semonkey.com/tag/rkhunter</link>
+      <description />
+      <pubDate>Tue, 16 Jan 2018 07:01:00 Z</pubDate>
+    </item>
+  </channel>
+</rss>
+<!--<guid value="02292e6c-b7e0-44ef-8b03-03d5b59628db" />-->
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
