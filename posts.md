@@ -8,7 +8,7 @@ permalink: /posts
   {% for post in site.posts %}
 
   <li>
-  <div align="left">
+  <div style="float: left;">
     <a href="{{ post.url }}">
     <img src="{{ post.image }}"/>
 </div>
