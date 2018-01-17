@@ -19,4 +19,7 @@ Template virt VMware using Low-level discovery, discovered guest will use Templa
 
 This template only contain auto discover and performance monitor, trigger and alert need another config.
 
+2018-01-17 updated :
+template_virt_3in1.xml included those 3 template with memory percentage calculation. 
+
 also see zabbix_server.conf for docker : [https://github.com/lumiere000/blog/blob/master/_posts/2017-12-05-zabbix_vm_monitoring.md]
