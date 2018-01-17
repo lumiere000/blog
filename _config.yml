@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Saru Demo Dekiru System Engineering!
-email: your-email@example.com
+title: Monkey knows SE!
+email: lumiere000@protonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Saru Demo Dekiru System Engineering! Monkey knows SE!
+  Monkey knows SE! Saru Demo Dekiru System Engineering!
   This blog represent an easiest way to setup/config your system,
   get rid of complicating structure and useless options.
 baseurl: / # the subpath of your site, e.g. /blog
