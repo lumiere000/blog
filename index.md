@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Monkey knows SE!
+title: Home
 permalink: /
 ---
 
