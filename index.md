@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Saru Demo Dekiru System Engineering!
 permalink: /
 ---
 
