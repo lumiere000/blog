@@ -4,8 +4,9 @@ title: tags
 permalink: /tags
 ---
 
-<ul>
-  {% for tags in site.tags %}
-    <li>{{ tags }}</li>
+<span>[
+  {% for tag in site.tags %}
+    {% capture tag_name %}{{ tag }}{% endcapture %}
+    <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
   {% endfor %}
-</ul>
+]</span>
