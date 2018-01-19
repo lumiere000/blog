@@ -6,7 +6,7 @@ tags: zabbix line ubuntu monitoring alert
 category: zabbix
 ---
 
-login and get a line token from https://notify-bot.line.me
+login and get a line token from [https://notify-bot.line.me](https://notify-bot.line.me)
 click your name > My page > Generate token > select a group or 1-on-1 means send to you only
 
 
