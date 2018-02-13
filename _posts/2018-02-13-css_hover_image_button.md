@@ -16,14 +16,12 @@ Then, use css to change image, first one is normal status, second one is hover s
 
 ```css
 #button01 {
-/*width of the image */
 	width: 150px;
 	background: url(https://domain/yourimage.png) no-repeat;
 	background-size: 150px;
 }
 
 #button01:hover {
-/*width of the image */
 	width: 150px;
 	background: url(https://domain/yourimage-on.png) no-repeat;
 	background-size: 150px;
