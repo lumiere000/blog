@@ -48,7 +48,7 @@ select Template Virt VMware > Macros
 
 {$USERNAME} - VMware service user name
 
-{$PASSWORD} - VMware service {$USERNAME} user password
+{$PASSWORD} - VMware service user password
 
 also add these 3 macros to Template Virt VMware Hypervisor and Template Virt VMware Guest
 
