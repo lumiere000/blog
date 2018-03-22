@@ -10,5 +10,5 @@ place \`\`\`
 
 \{ % raw % \} content_with_special_charactor \{ % endraw % \}
 
-{ % raw % } test!! { % endraw % }
+{% raw %} test!{{(())}}! {% endraw %}
 end with \`\`\`
