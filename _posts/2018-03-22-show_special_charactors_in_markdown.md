@@ -8,6 +8,6 @@ category: markdown
 
 place \`\`\`
 
-{% raw %}{% raw %} content_with_special_charactor {% endraw %}{% endraw %}
+{% raw %} {% {% endraw %}raw{% raw %} %} {% endraw %}content_with_special_charactor {% endraw %}
 
 end with \`\`\`
