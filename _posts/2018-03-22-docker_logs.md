@@ -14,7 +14,8 @@ docker logs <container_id_or_name>
 
 clear the log by :
 
-
+```
 {% raw %}
 echo "" > $(docker inspect --format='{{.LogPath}}' <container_id_or_name>)
-{% raw %}
+{% endraw %}
+```
