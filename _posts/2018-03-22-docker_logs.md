@@ -15,5 +15,5 @@ docker logs <container_id_or_name>
 clear the log by :
 
 ```
-echo "" > $(docker inspect --format='\{\{.LogPath\}\}' <container_id_or_name>)
+echo "" > $(docker inspect --format=' \{ \{.LogPath \} \}' <container_id_or_name>)
 ```
