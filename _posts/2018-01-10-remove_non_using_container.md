@@ -35,3 +35,15 @@ add permission and run :
 chmod 755 remove_container
 ./remove_container.sh
 ```
+
+stop all containers
+
+```
+docker stop $(docker ps -a -q)
+```
+
+remove all containers
+
+```
+docker rm $(docker ps -a -q)
+```
