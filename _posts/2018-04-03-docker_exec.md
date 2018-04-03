@@ -15,7 +15,13 @@ this error may appear when your container doesn't have /bin/bash
 solution :
 
 use
+
+```
 docker exec -it container_id /bin/sh
+```
 
 instead of
+
+```
 docker exec -it container_id bash
+```
