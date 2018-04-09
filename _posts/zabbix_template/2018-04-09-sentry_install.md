@@ -76,6 +76,8 @@ services:
       SENTRY_REDIS_HOST: redis
 ```
 
+initial sentry and create admin account : 
+
 ```
 docker-compose exec sentry sentry upgrade
 docker-compose restart sentry
