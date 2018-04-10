@@ -8,8 +8,6 @@ category: k8s
 
 install docker and kubernetes first :
 
-docker install :
-
 ```
 apt-get update
 apt-get install -y docker.io
