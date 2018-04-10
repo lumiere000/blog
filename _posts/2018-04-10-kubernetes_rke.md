@@ -1,8 +1,8 @@
 ---
 layout: posts
-title: kuberntes rke cluster deploy
+title: kubernetes rke cluster deploy
 image: /img/k8s.png
-tags: k8s Kubernetes installation ubuntu rke
+tags: k8s kubernetes installation ubuntu rke
 category: k8s
 ---
 
