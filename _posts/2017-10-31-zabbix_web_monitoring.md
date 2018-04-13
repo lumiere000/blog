@@ -36,9 +36,14 @@ update
 #### 3. add trigger
 
 configuration > hosts > triggers >  create trigger
-name :  Web scenario "Availability of test.local" failed: {ITEM.VALUE}
-severity : high
-expression : {test.local:web.test.error[Availability of test.local].strlen()}>0 and {test.local:web.test.fail[Availability of test.local].min(1)}>0
+name :  
+Web scenario "Availability of test.local" failed: {ITEM.VALUE}
+
+severity :
+high
+
+expression :
+{test.local:web.test.error[Availability of test.local].strlen()}>0 and {test.local:web.test.fail[Availability of test.local].min(1)}>0
 
 update
 
