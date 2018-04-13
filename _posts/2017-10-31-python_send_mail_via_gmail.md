@@ -42,8 +42,8 @@ update
 #### create log file for debug (do it inside container if you using docker)
 
 ```markdown
-touch /var/alert_mail.log
-chmod 777 /var/alert_mail.log
+touch /var/log/alert_mail.log
+chmod 777 /var/log/alert_mail.log
 ```
 
 ```markdown
