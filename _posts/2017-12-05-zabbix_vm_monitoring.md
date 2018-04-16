@@ -57,3 +57,13 @@ Now wait about a minute, let your esxi host to login vsphere, it will get some b
 Template virt VMware using Low-level discovery, discovered guest will use Template Virt VMware Guest, discovered host will use Template Virt VMware Hypervisor.
 
 This template only contain auto discover and performance monitor, trigger and alert need another config.
+
+Add Regualar expressions for Filesystem discovery :
+Administration > General  > Expressions
+
+```
+Name : Mounted filesystem discovery
+Expressions : Result is FALSE     ^(/boot|)$
+```
+
+Add and Update
