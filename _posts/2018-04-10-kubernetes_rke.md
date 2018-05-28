@@ -70,7 +70,7 @@ usermod -aG docker user
 rke install :
 
 ```
-curl -L https://github.com/rancher/rke/releases/download/v0.1.5/rke_linux-amd64 -o rke
+curl -L https://github.com/rancher/rke/releases/download/v0.1.7/rke_linux-amd64 -o rke
 chmod +x rke
 mkdir /home/cluster
 mv ./rke /home/cluster/rke
@@ -95,15 +95,24 @@ services:
   etcd:
     image: quay.io/coreos/etcd:v3.2
   kube-api:
-    image: rancher/k8s:v1.8.3-rancher2
+    image: rancher/k8s:v1.9.5-rancher1-3
   kube-controller:
-    image: rancher/k8s:v1.8.3-rancher2
+    image: rancher/k8s:v1.9.5-rancher1-3
   scheduler:
-    image: rancher/k8s:v1.8.3-rancher2
+    image: rancher/k8s:v1.9.5-rancher1-3
   kubelet:
-    image: rancher/k8s:v1.8.3-rancher2
+    image: rancher/k8s:v1.9.5-rancher1-3
   kubeproxy:
-    image: rancher/k8s:v1.8.3-rancher2
+    image: rancher/k8s:v1.9.5-rancher1-3
+
+ingress:
+  provider: none
+  extra_args:
+    enable-ssl-passthrough: ""
+
+network:
+  plugin: calico
+  options: {}
 ```
 
 
