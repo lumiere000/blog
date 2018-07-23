@@ -9,10 +9,12 @@ category: k8s
 ###3 master etcd and also worker example
 
 infrastructure :
+```
 VIP of keepalived (loadblancer ip) : 192.168.0.100
 k8s-node1 : 192.168.0.101 roles : etcd master worker haproxy keepalived
 k8s-node2 : 192.168.0.102 roles : etcd master worker haproxy keepalived
 k8s-node3 : 192.168.0.103 roles : etcd master worker haproxy keepalived
+```
 
 install docker and kubernetes first :
 ```
