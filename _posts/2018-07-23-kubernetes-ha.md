@@ -459,9 +459,9 @@ add --node-ip=192.168.x.x to the end, example :
 ExecStart=/usr/bin/kubelet $KUBELET_KUBECONFIG_ARGS $KUBELET_SYSTEM_PODS_ARGS $KUBELET_NETWORK_ARGS $KUBELET_DNS_ARGS $KUBELET_AUTHZ_ARGS $KUBELET_CADVISOR_ARGS $KUBELET_CERTIFICATE_ARGS $KUBELET_EXTRA_ARGS --cloud-provider=vsphere --cloud-config=/etc/vsphereconf/vsphere.conf --node-ip=192.168.0.2
 ```
 Failed to list *v1.Node: Get https://10.96.0.1:443/api/v1/nodes?resourceVersion=0: net/http: TLS handshake timeout
-run
+run on all node to solve : 
 ```
-iptables -P FORWARD ACCEPT on all node to solve
+iptables -P FORWARD ACCEPT
 ```
 
 
