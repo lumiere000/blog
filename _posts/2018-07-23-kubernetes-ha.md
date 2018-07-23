@@ -231,6 +231,7 @@ kubeadm init --config kubeadm-master.config
 
 after master built :
 ```
+mkdir ~/.kube/
 cp /etc/kubernetes/admin.conf ~/.kube/config
 ```
 
@@ -435,6 +436,7 @@ kubectl apply -f kube-flannel.yml
 
 after cluster built (run on all nodes):
 ```
+mkdir ~/.kube/
 cp /etc/kubernetes/admin.conf ~/.kube/config
 ```
 
