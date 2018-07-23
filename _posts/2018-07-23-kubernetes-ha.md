@@ -446,6 +446,11 @@ allow master to be a worker :
 kubectl taint nodes --all node-role.kubernetes.io/master-
 ```
 
+get the cluster join token again :
+```
+kubeadm token create --print-join-command
+```
+
 problems may face :
 Node show no ready when VIP of keepalived apply on it
 check /etc/systemd/system/kubelet.service.d/10-kubeadm.conf
