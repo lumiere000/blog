@@ -114,9 +114,9 @@ frontend k8s-https
 backend k8s-https
   mode tcp
   balance roundrobin
-  server acs-k8s 192.168.0.101:6443 weight 1 maxconn 1000 check inter 2000 rise 2 fall 3
-  server k8s-test1 192.168.0.102:6443 weight 1 maxconn 1000 check inter 2000 rise 2 fall 3
-  server k8s-test2 192.168.0.103:6443 weight 1 maxconn 1000 check inter 2000 rise 2 fall 3
+  server k8s-node1 192.168.0.101:6443 weight 1 maxconn 1000 check inter 2000 rise 2 fall 3
+  server k8s-node2 192.168.0.102:6443 weight 1 maxconn 1000 check inter 2000 rise 2 fall 3
+  server k8s-node3 192.168.0.103:6443 weight 1 maxconn 1000 check inter 2000 rise 2 fall 3
 EOF
 ```
 
