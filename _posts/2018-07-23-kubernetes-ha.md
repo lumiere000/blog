@@ -75,6 +75,31 @@ GRUB_CMDLINE_LINUX_DEFAULT="cgroup_enable=memory swapaccount=1"
 GRUB_CMDLINE_LINUX="cgroup_enable=memory swapaccount=1"
 ```
 
+flannel prepare :
+```
+mkdir -p /etc/cni/net.d
+vi /etc/cni/net.d/10-flannel.conflist
+
+{
+  "name": "cbr0",
+  "plugins": [
+    {
+      "type": "flannel",
+      "delegate": {
+        "hairpinMode": true,
+        "isDefaultGateway": true
+      }
+    },
+    {
+      "type": "portmap",
+      "capabilities": {
+        "portMappings": true
+      }
+    }
+  ]
+}
+```
+
 del old cert on other node before :
 ```
 rm /etc/kubernetes/kubelet.conf
