@@ -16,6 +16,15 @@ k8s-node2 : 192.168.0.102 roles : etcd master worker haproxy keepalived
 k8s-node3 : 192.168.0.103 roles : etcd master worker haproxy keepalived
 ```
 
+add hostname on every nodes :
+```
+cat >>/etc/hosts<<EOF
+192.168.0.101 k8s-node1
+192.168.0.102 k8s-node2
+192.168.0.103 k8s-node3
+EOF
+```
+
 install docker and kubernetes first :
 
 kubernetes support docker version : 1.12.6 or 1.13.1 or 17.03.2
@@ -74,6 +83,8 @@ rm /etc/kubernetes/admin.conf
 
 haproxy :
 ```
+docker pull haproxy:1.7.8-alpine
+mkdir /etc/haproxy
 cat >/etc/haproxy/haproxy.cfg<<EOF
 global
   log 127.0.0.1 local0 err
