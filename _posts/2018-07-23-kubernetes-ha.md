@@ -6,7 +6,7 @@ tags: k8s kubernetes installation ubuntu kubeadm
 category: k8s
 ---
 
-###3 master etcd and also worker example
+### 3 master etcd and also worker example
 
 infrastructure :
 ```
