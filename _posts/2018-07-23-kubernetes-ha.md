@@ -30,9 +30,10 @@ install docker and kubernetes first :
 kubernetes support docker version : 1.12.6 or 1.13.1 or 17.03.2
 
 
-remove current docker (if necessarily)
+remove current docker and k8s (if necessarily)
 ```
 sudo apt-get remove docker docker-engine docker-ce docker.io
+sudo apt-get remove -y kubelet kubeadm kubernetes-cni
 ```
 
 docker install :
@@ -59,7 +60,7 @@ cat <<EOF >/etc/apt/sources.list.d/kubernetes.list
 deb http://apt.kubernetes.io/ kubernetes-xenial main
 EOF
 apt-get update
-apt-get install -y kubelet kubeadm kubernetes-cni
+apt-get install -y kubelet=1.11.0-00 kubeadm=1.11.0-00 kubernetes-cni
 ```
 
 stop swap :
