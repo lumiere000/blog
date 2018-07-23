@@ -17,9 +17,9 @@ k8s-node3 : 192.168.0.103 roles : etcd master worker haproxy keepalived
 ```
 
 install docker and kubernetes first :
-```
+
 kubernetes support docker version : 1.12.6 or 1.13.1 or 17.03.2
-```
+
 
 remove current docker (if necessarily)
 ```
