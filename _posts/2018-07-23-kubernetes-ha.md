@@ -442,3 +442,7 @@ run
 ```
 iptables -P FORWARD ACCEPT on all node to solve
 ```
+
+
+reference link :
+[https://www.kubernetes.org.cn/4256.html](https://www.kubernetes.org.cn/4256.html)
