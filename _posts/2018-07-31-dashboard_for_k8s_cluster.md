@@ -7,7 +7,7 @@ category: k8s
 ---
 
 ```
-wget https://github.com/helm/charts/blob/master/stable/kubernetes-dashboard/values.yaml
+wget https://raw.githubusercontent.com/helm/charts/master/stable/kubernetes-dashboard/values.yaml
 helm install stable/kubernetes-dashboard --name dashboard -f values.yaml
 ```
 
