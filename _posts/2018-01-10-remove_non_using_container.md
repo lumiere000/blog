@@ -32,7 +32,7 @@ echo "remove success"
 add permission and run :
 
 ```
-chmod 755 remove_container
+chmod 755 remove_container.sh
 ./remove_container.sh
 ```
 
