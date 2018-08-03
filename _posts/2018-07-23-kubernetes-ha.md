@@ -156,7 +156,9 @@ docker run --net=host --cap-add=NET_ADMIN \
 vi /etc/systemd/system/kubelet.service.d/10-kubeadm.conf !!!replace your node ip at the end :
 ```
 [Service]
+[Service]
 Environment="KUBELET_KUBECONFIG_ARGS=--bootstrap-kubeconfig=/etc/kubernetes/bootstrap-kubelet.conf --kubeconfig=/etc/kubernetes/kubelet.conf"
+Environment="KUBELET_CONFIG_ARGS=--config=/var/lib/kubelet/config.yaml"
 Environment="KUBELET_SYSTEM_PODS_ARGS=--pod-manifest-path=/etc/kubernetes/manifests --allow-privileged=true"
 Environment="KUBELET_NETWORK_ARGS=--network-plugin=cni --cni-conf-dir=/etc/cni/net.d --cni-bin-dir=/opt/cni/bin"
 Environment="KUBELET_DNS_ARGS=--cluster-dns=10.96.0.10 --cluster-domain=cluster.local"
@@ -164,7 +166,7 @@ Environment="KUBELET_AUTHZ_ARGS=--authorization-mode=Webhook --client-ca-file=/e
 Environment="KUBELET_CADVISOR_ARGS=--cadvisor-port=0"
 Environment="KUBELET_CERTIFICATE_ARGS=--rotate-certificates=true --cert-dir=/var/lib/kubelet/pki"
 ExecStart=
-ExecStart=/usr/bin/kubelet $KUBELET_KUBECONFIG_ARGS $KUBELET_SYSTEM_PODS_ARGS $KUBELET_NETWORK_ARGS $KUBELET_DNS_ARGS $KUBELET_AUTHZ_ARGS $KUBELET_CADVISOR_ARGS $KUBELET_CERTIFICATE_ARGS $KUBELET_EXTRA_ARGS  --node-ip=192.168.x.x
+ExecStart=/usr/bin/kubelet $KUBELET_KUBECONFIG_ARGS $KUBELET_SYSTEM_PODS_ARGS $KUBELET_NETWORK_ARGS $KUBELET_DNS_ARGS $KUBELET_AUTHZ_ARGS $KUBELET_CADVISOR_ARGS $KUBELET_CERTIFICATE_ARGS $KUBELET_EXTRA_ARGS --node-ip=XX.XX.XX.XX --authentication-token-webhook=true
 ```
 
 allow communication between containers :
@@ -459,7 +461,7 @@ add --node-ip=192.168.x.x to the end, example :
 ExecStart=/usr/bin/kubelet $KUBELET_KUBECONFIG_ARGS $KUBELET_SYSTEM_PODS_ARGS $KUBELET_NETWORK_ARGS $KUBELET_DNS_ARGS $KUBELET_AUTHZ_ARGS $KUBELET_CADVISOR_ARGS $KUBELET_CERTIFICATE_ARGS $KUBELET_EXTRA_ARGS --cloud-provider=vsphere --cloud-config=/etc/vsphereconf/vsphere.conf --node-ip=192.168.0.2
 ```
 Failed to list *v1.Node: Get https://10.96.0.1:443/api/v1/nodes?resourceVersion=0: net/http: TLS handshake timeout
-run on all node to solve : 
+run on all node to solve :
 ```
 iptables -P FORWARD ACCEPT
 ```
