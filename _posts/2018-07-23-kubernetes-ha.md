@@ -466,6 +466,11 @@ run on all node to solve :
 iptables -P FORWARD ACCEPT
 ```
 
+see if kubelet not start or auto stop : 
+```
+journalctl -xeu kubelet
+```
+
 
 reference link :
 [https://www.kubernetes.org.cn/4256.html](https://www.kubernetes.org.cn/4256.html)
