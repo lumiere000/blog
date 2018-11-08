@@ -453,6 +453,20 @@ get the cluster join token again :
 kubeadm token create --print-join-command
 ```
 
+workers rejoin
+
+```
+service kubelet stop
+rm /etc/kubernetes/kubelet.conf
+rm /etc/kubernetes/admin.conf
+rm /etc/kubernetes/bootstrap-kubelet.conf
+rm /etc/kubernetes/pki/ca.crt
+
+run
+kubeadm token create --print-join-command
+on master node, and use the command to join
+```
+
 problems may face :
 Node show no ready when VIP of keepalived apply on it
 check /etc/systemd/system/kubelet.service.d/10-kubeadm.conf
@@ -466,7 +480,7 @@ run on all node to solve :
 iptables -P FORWARD ACCEPT
 ```
 
-see if kubelet not start or auto stop : 
+see if kubelet not start or auto stop :
 ```
 journalctl -xeu kubelet
 ```
