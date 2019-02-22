@@ -7,7 +7,9 @@ category: cicd
 ---
 
 TCP 4505、4506 port needed
+
 ###on all master and minion
+
 ```
 yum install https://repo.saltstack.com/yum/redhat/salt-repo-latest-2.el7.noarch.rpm
 
