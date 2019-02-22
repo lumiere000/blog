@@ -8,7 +8,7 @@ category: cicd
 
 TCP 4505、4506 port needed
 
-###on all master and minion
+### on all master and minion
 
 ```
 yum install https://repo.saltstack.com/yum/redhat/salt-repo-latest-2.el7.noarch.rpm
@@ -33,7 +33,7 @@ systemctl start salt-minion.service
 systemctl enable salt-minion.service
 ```
 
-###on master
+### on master
 
 ```
 yum install salt-master
@@ -55,18 +55,18 @@ systemctl start salt-master.service
 systemctl enable salt-master.service
 ```
 
-###list and accept keys
+### list and accept keys
 ```
 salt-key -L
 salt-key -A
 ```
 
-###check
+### check
 ```
 salt "*" test.ping
 ```
 
-###usage
+### usage
 ```
 salt '*minion*' cmd.run 'df -h'
 ```
