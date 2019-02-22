@@ -10,13 +10,9 @@ TCP 4505、4506 port needed
 ###on all master and minion
 ```
 yum install https://repo.saltstack.com/yum/redhat/salt-repo-latest-2.el7.noarch.rpm
-```
 
-```
 yum install salt-minion
-```
 
-```
 vi /etc/salt/minion
 ```
 
@@ -39,9 +35,7 @@ systemctl enable salt-minion.service
 
 ```
 yum install salt-master
-```
 
-```
 vi /etc/salt/master
 ```
 
