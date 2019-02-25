@@ -6,6 +6,8 @@ tags: installation centos tools management cicd
 category: cicd
 ---
 
+saltstack - one of the alternatives of ansible, better function by installing agent (minion). 
+
 TCP 4505、4506 port needed
 
 ### on all master and minion
