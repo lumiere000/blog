@@ -42,8 +42,8 @@ update
 #### create log file for debug (do it inside container if you using docker)
 
 ```markdown
-touch /var/log/alert_mail.log
-chmod 777 /var/log/alert_mail.log
+touch /tmp/alert_mail.log
+chmod 777 /tmp/alert_mail.log
 ```
 
 ```markdown
@@ -80,7 +80,7 @@ from email.Utils import formatdate
 
 # Mail Account
 MAIL_ACCOUNT = 'your@email.com'
-MAIL_PASSWORD = 'yourpassord'
+MAIL_PASSWORD = 'yourpassword'
 
 # Sender Name
 SENDER_NAME = u'Zabbix Alert'
@@ -136,7 +136,7 @@ if __name__ == '__main__':
 test:
 
 ```markdown
-./gmail-suth-smtp.py test@yourmail.com yoursubject yourmessage
+./gmail-auth-smtp.py test@yourmail.com yoursubject yourmessage
 ```
 
 you can see message log in /var/alert_mail.log
