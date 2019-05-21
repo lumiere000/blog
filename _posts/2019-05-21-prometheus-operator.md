@@ -23,7 +23,7 @@ tar -zxf prometheus-operator-0.0.29.tgz
 vi prometheus-operator/values.yaml
 ```
 
-change following :
+### change following :
 
 ```
 prometheusConfigReloader:
