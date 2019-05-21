@@ -110,7 +110,7 @@ kubectl -n kube-system set selector service kube-prometheus-exporter-kube-schedu
 kubectl get po -l component -n kube-system --show-labels
 ```
 
-###alertmanager for pvc
+### alertmanager for pvc
 
 ```
 cd /home/cluster_conf/kube-prometheus/charts/exporter-kubernetes/templates
@@ -128,7 +128,7 @@ add before {{ end }}
 ```
 
 
-###config on each node :
+### config on each node :
 
 ```
 vi /etc/kubernetes/manifests/kube-controller-manager.yaml
@@ -137,7 +137,7 @@ vi /etc/kubernetes/manifests/kube-scheduler.yaml
 	- --address=0.0.0.0
 ```
 
-###restart nodes kubelet one by one :
+### restart nodes kubelet one by one :
 
 ```
 systemctl restart kubelet
