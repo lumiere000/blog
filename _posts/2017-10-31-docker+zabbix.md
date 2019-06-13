@@ -38,6 +38,11 @@ tar -zxv -f zabbix.tar.gz -C .
 
 #### 3. build and start
 
+add your timezone before compose up if you are using centos
+```
+echo "your_timezone" > /etc/timezone
+```
+
 ```markdown
 cd /home/zabbix
 docker-compose up -d
