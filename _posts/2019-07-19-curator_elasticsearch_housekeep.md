@@ -55,9 +55,9 @@ actions:
       disable_action: False
     filters:
     - filtertype: pattern
-      kind: prefix
-      value: logstash-
-      exclude:
+      kind: regex
+      value: '^[a-zA-Z0-9].*$'
+      exclude: false
     - filtertype: age
       source: name
       direction: older
@@ -80,3 +80,13 @@ delete_index.yml
 unit_count: 14
 means delete data older than 14 days
 ```
+
+### things need to know
+```
+- filtertype: pattern
+  kind: regex
+  value: '^[a-zA-Z0-9].*$'
+  exclude: false
+```
+
+value above means everything with letter and number begin, that means it will delete everything except special character/symbol begin with
