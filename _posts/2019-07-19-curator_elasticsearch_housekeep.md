@@ -35,8 +35,11 @@ logging:
   logformat: default
   blacklist: ['elasticsearch', 'urllib3']
 
+```
+
 vi /srv/curator/delete_index.yml
 
+```
 ---
 actions:
   1:
