@@ -11,9 +11,9 @@ category: python
 goto administration > media types > create media type
 
 ```markdown
-name : gmail-suth-smtp
+name : gmail-auth-smtp
 type : Script
-Script name : gmail-suth-smtp.py
+Script name : gmail-auth-smtp.py
 Script parameters :
 {ALERT.SENDTO}
 {ALERT.SUBJECT}
@@ -23,7 +23,7 @@ Script parameters :
 ```markdown
 goto administration > users > admin > media
 add media
-type : gmail-suth-smtp
+type : gmail-auth-smtp
 send to : your@email.com
 select your alert level
 update
@@ -33,7 +33,7 @@ update
 configuration > actions > report problems to zabbix administrators > action
 add condition with host name or host group you wanted to send alert
 operations > edit
-send only to : gmail-suth-smtp
+send only to : gmail-auth-smtp
 update
 ```
 
@@ -47,18 +47,18 @@ chmod 777 /tmp/alert_mail.log
 ```
 
 ```markdown
-vi /usr/lib/zabbix/alertscripts/gmail-suth-smtp.py
-chmod 755 /usr/lib/zabbix/alertscripts/gmail-suth-smtp.py
+vi /usr/lib/zabbix/alertscripts/gmail-auth-smtp.py
+chmod 755 /usr/lib/zabbix/alertscripts/gmail-auth-smtp.py
 ```
 
 or if you using my configured docker :
 
 ```markdown
-/home/zabbix/zbx_env/usr/lib/zabbix/alertscripts/gmail-suth-smtp.py
-chmod 755 /home/zabbix/zbx_env/usr/lib/zabbix/alertscripts/gmail-suth-smtp.py
+/home/zabbix/zbx_env/usr/lib/zabbix/alertscripts/gmail-auth-smtp.py
+chmod 755 /home/zabbix/zbx_env/usr/lib/zabbix/alertscripts/gmail-auth-smtp.py
 ```
 
-gmail-suth-smtp.py:
+gmail-auth-smtp.py:
 
 ```markdown
 #!/usr/bin/python
