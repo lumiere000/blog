@@ -67,7 +67,7 @@ gmail-auth-smtp.py:
 Zabbix SMTP Alert script for gmail.
 """
 import logging
-logging.basicConfig(filename='/var/log/alert_mail.log', level=logging.DEBUG,
+logging.basicConfig(filename='/tmp/alert_mail.log', level=logging.DEBUG,
 format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 logging.debug('Alert mail send begin.')
@@ -139,4 +139,4 @@ test:
 ./gmail-auth-smtp.py test@yourmail.com yoursubject yourmessage
 ```
 
-you can see message log in /var/alert_mail.log
+you can see message log in /tmp/alert_mail.log
