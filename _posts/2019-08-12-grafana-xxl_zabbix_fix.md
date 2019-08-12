@@ -45,10 +45,17 @@ docker-compose up -d --force-recreate --build grafana-xxl
 
 ```
 docker exec -it zabbix_grafana-xxl_1 bash
+```
 
+### found zabbix app :
+
+```
 grafana-cli plugins list-remote
-found zabbix app
+```
 
+### reinstall zabbix app :
+
+```
 grafana-cli plugins remove alexanderzobnin-zabbix-app
 
 grafana-cli plugins install alexanderzobnin-zabbix-app 3.10.2
