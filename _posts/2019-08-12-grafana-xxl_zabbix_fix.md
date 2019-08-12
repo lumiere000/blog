@@ -12,7 +12,7 @@ public/plugins/alexanderzobnin-zabbix-app/datasource-zabbix/module.js not found
 
 after update
 
-### edit docker-compose to disable plugin auto update (backup ./grafana/data first):
+edit docker-compose to disable plugin auto update (backup ./grafana/data first):
 
 ```
  grafana-xxl:
@@ -35,25 +35,25 @@ after update
       - pgsql-database
 ```
 
-### restart and recreate container
+restart and recreate container
 
 ```
 docker-compose up -d --force-recreate --build grafana-xxl
 ```
 
-### reinstall plugin manually :
+reinstall plugin manually :
 
 ```
 docker exec -it zabbix_grafana-xxl_1 bash
 ```
 
-### found zabbix app :
+found zabbix app :
 
 ```
 grafana-cli plugins list-remote
 ```
 
-### reinstall zabbix app :
+reinstall zabbix app :
 
 ```
 grafana-cli plugins remove alexanderzobnin-zabbix-app
@@ -61,4 +61,4 @@ grafana-cli plugins remove alexanderzobnin-zabbix-app
 grafana-cli plugins install alexanderzobnin-zabbix-app 3.10.2
 ```
 
-### you can try to restart docker-compose to verify plugin version now
+you can try to restart docker-compose to verify plugin version now
