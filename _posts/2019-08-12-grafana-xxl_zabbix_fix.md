@@ -62,3 +62,5 @@ grafana-cli plugins install alexanderzobnin-zabbix-app 3.10.2
 ```
 
 you can try to restart docker-compose to verify plugin version now
+
+try to modify to version of grafana-xxl and do it again if error is still occurring
