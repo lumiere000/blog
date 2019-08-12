@@ -16,7 +16,7 @@ after update
 
 ```
  grafana-xxl:
-  image: monitoringartist/grafana-xxl:5.4
+  image: monitoringartist/grafana-xxl:latest
   ports:
    - "3000:3000"
   environment:
