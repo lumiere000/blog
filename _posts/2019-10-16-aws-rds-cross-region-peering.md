@@ -30,6 +30,7 @@ in this example we will have subnet like this :
 1. Services > VPC > Route Tables > Create route table as below :
 
 N. California
+
 |Destination|Target|
 |---|---|
 |172.31.0.0/16|local|
@@ -37,6 +38,7 @@ N. California
 |172.32.0.0/16|pcx-xxxxxx|
 
 Singapore
+
 |Destination|Target|
 |---|---|
 |172.32.0.0/16|local|
