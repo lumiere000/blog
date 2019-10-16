@@ -29,7 +29,7 @@ in this example we will have subnet like this :
 
 1. Services > VPC > Route Tables > Create route table as below :
 
-    California
+    N. California
 
     |Destination|Target|
     |---|---|
