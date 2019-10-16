@@ -8,7 +8,7 @@ category: cloud
 
 in this example we will have subnet like this :
 
-|===region===|===subnet===|===zone_a===|===zone_b===|
+|region|subnet|zone_a|zone_b|
 |:---|:---|:---|:---|
 |N. California|172.31.0.0/16|172.31.0.0/24|172.31.1.0/24|
 |Singapore|172.32.0.0/16|172.32.0.0/24|172.32.1.0/24|
