@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: article
 title: aws rds cross region peering
 image: /img/aws.png
 tags: config network aws cloud
