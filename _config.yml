@@ -19,8 +19,8 @@
 text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : "https://lumiere000.github.io/blog/" # the base hostname & protocol for your site e.g. https://www.someone.com
-baseurl : / # does not include hostname
-title   : Your Site Title
+baseurl : /blog # does not include hostname
+title   : Monkey knows SE!
 description: > # this means to ignore newlines until "Language & timezone"
   Monkey knows SE! Saru Demo Dekiru System Engineering!
   This blog represent an easiest way to setup/config your system,
