@@ -140,9 +140,9 @@ body {
   color: #fafafa;
   font-family: "Courier New";
   line-height: 1.45;
-//  margin: 6rem auto 1rem;
+  margin: 6rem auto 1rem;
   max-width: 48rem;
-  padding: .25rem;
+  padding: 1.25rem;
 }
 
 pre {
