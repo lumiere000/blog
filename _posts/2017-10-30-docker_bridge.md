@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: article
 title: docker bridge
 image: /img/docker.png
 tags: docker network

@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: article
 title: tcpview and process explorer
 image: /img/windows.png
 tags: tools windows security monitoring network

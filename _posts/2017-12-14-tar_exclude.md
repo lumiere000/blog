@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: article
 title: tar with multi directory exclude
 image: /img/tools.jpg
 tags: tools scripts ubuntu shellscript

@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: article
 title: zabbix web monitoring with alert trigger
 image: ../img/zabbix.png
 tags: zabbix monitoring config

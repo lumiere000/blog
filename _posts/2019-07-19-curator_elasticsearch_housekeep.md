@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: article
 title: curator elasticsearch housekeep
 image: /img/elasticsearch.png
 tags: installation config tools

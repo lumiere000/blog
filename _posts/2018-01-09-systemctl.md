@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: article
 title: systemctl usage
 image: /img/ubuntu.png
 tags: shellscript ubuntu

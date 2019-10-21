@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: article
 title: remove advanced mass sender
 image: /img/windows.png
 tags: windows spyware antivirus rogue

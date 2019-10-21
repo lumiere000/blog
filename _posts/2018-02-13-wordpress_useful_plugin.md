@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: article
 title: recommended wordpress plugin
 image: /img/wordpress.png
 tags: wordpress tools config website

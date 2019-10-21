@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: article
 title: Regular expression replacement for ip without dot
 image: /img/tools.jpg
 tags: website tools scripts

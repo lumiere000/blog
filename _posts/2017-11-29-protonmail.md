@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: article
 title: ProtonaMail - a more secure choose
 image: /img/protonmail.png
 tags: mail security website

@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: article
 title: docker exec error
 image: /img/docker.png
 tags: docker installation ubuntu

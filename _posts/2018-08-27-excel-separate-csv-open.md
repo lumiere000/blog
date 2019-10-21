@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: article
 title: excel override csv separate
 image: /img/windows.png
 tags: tools windows office excel

@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: article
 title: docker installation for ubuntu
 image: /img/docker.png
 tags: docker installation ubuntu

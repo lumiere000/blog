@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: article
 title: show special charactors in markdown
 image: /img/markdown.png
 tags: markdown syntax

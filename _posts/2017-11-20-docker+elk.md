@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: article
 title: elasticsearch+logstash+kibana
 image: /img/elasticsearch.png
 tags: docker elasticsearch logstash kibana

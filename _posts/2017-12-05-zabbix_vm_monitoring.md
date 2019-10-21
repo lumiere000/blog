@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: article
 title: zabbix vm monitoring
 image: /img/zabbix.png
 tags: docker zabbix ubuntu monitoring vmware

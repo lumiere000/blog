@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: article
 title: use line messager for zabbix alert
 image: /img/line.png
 tags: zabbix line ubuntu monitoring alert

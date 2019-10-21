@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: article
 title: combine and extract clonezilla gzip file to img file
 image: /img/ubuntu.png
 tags: ubuntu installation tools clonezilla backup restore

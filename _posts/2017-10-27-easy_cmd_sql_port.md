@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: article
 title: allow sql port by windows command prompt
 image: /img/sql.png
 tags: windows sql firewall security

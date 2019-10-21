@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: article
 title: TCP Wrappers
 image: /img/ubuntu.png
 tags: security monitoring network tools

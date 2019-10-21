@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: article
 title: grafana-xxl zabbix plugin fix
 image: /img/grafana.png
 tags: config tools docker

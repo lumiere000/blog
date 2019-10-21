@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: article
 title: css hover image button using div id
 image: /img/css.png
 tags: css website coding desgin

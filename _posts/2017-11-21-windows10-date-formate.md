@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: article
 title: windows 10 date format
 image: /img/windows.png
 tags: windows config

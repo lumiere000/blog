@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: article
 title: atom sync-setting
 image: /img/atom.jpg
 tags: atom tools config

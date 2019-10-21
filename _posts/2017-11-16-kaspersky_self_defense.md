@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: article
 title: kaspersky self defense
 image: /img/kaspersky.png
 tags: security kaspersky

@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: article
 title: python debug mode, also can print logs to log file
 image: /img/python.png
 tags: python debug logs

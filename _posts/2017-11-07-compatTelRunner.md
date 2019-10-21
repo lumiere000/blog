@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: article
 title: service host local system and compatTelRunner
 image: /img/windows.png
 tags: windows performance config

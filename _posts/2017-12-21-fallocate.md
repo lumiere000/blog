@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: article
 title: fallocate
 image: /img/ubuntu.png
 tags: security tools filesystem

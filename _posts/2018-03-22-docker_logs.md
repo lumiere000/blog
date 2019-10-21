@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: article
 title: docker logs and clear
 image: /img/docker.png
 tags: docker log

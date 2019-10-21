@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: article
 title: sentry docker-compose install
 image: /img/sentry.png
 tags: docker compose installation sentry
