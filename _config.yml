@@ -18,7 +18,7 @@
 ##############################
 text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
-url     : "http://lumiere000.github.io" # the base hostname & protocol for your site e.g. https://www.someone.com
+url     : "http://semonkey.com" # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : / # does not include hostname
 title   : Monkey knows SE!
 description: > # this means to ignore newlines until "Language & timezone"
@@ -37,7 +37,7 @@ timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for
 author:
   type      : # "person" (default), "organization"
   name      : Lumiere000
-  url       : "http://lumiere000.github.io"
+  url       : "http://semonkey.com"
   avatar    : # path or url of avatar image (square)
   bio       : It is fine.
   email     : lumiere000@protonmail.com
