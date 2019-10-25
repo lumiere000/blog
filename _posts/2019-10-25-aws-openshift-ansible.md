@@ -2,7 +2,7 @@
 #layout: article
 title: AWS Openshift cluster build by ansible
 article_header:
-  type: overlay
+  type: cover
   image:
     src: /img/aws.png
 #image: /img/aws.png
