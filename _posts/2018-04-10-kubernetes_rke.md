@@ -157,22 +157,22 @@ FATA[0136] [controlPlane] Failed to bring up Control Plane: Failed to verify hea
 
 
 
-####remark notes####
+#### remark notes
 
-####clean up the k8s setting####
+#### clean up the k8s setting
 ```
 kubeadm reset
 rm -rf /var/lib/etcd/*
 ```
 
-####rke config (use if detail setting needed, )####
+#### rke config (use if detail setting needed, )
 ```
 ./rke config
 ```
 
 fill in the rke config
 
-####k8s initialize####
+#### k8s initialize
 ```
 kubeadm init
 kubeadm reset
