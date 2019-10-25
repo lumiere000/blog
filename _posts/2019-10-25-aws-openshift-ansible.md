@@ -1,3 +1,14 @@
+---
+#layout: article
+title: AWS Openshift cluster build by ansible
+article_header:
+  type: cover
+  image:
+    src: /img/aws.png
+#image: /img/aws.png
+tags: config openshift aws cloud
+category: cloud
+---
 # this is a Openshift cluster build demo by ansible uses US-West AWS site
 
 ### EC2 example of US-West(N. California)
