@@ -8,6 +8,7 @@ article_header:
 #image: /img/aws.png
 tags: config openshift aws cloud
 category: cloud
+cover: /img/aws.png
 ---
 
 # this is a Openshift cluster build demo by ansible uses US-West AWS site
