@@ -1,7 +1,7 @@
 ---
 layout: article
 title: kubernetes cluster dashboard deploy
-image: /img/k8s.png
+cover: /img/k8s.png
 tags: k8s kubernetes installation ubuntu kubeadm monitoring
 category: k8s
 ---

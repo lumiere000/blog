@@ -1,7 +1,7 @@
 ---
 layout: article
 title: installation and usage of saltstack in centos 7
-image: /img/saltstack.png
+cover: /img/saltstack.png
 tags: installation centos tools management cicd
 category: cicd
 ---

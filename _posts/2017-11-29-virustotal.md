@@ -1,7 +1,7 @@
 ---
 layout: article
 title: online file anti-virus scanning
-image: /img/virustotal.jpg
+cover: /img/virustotal.jpg
 tags: security tools website
 category: security
 ---

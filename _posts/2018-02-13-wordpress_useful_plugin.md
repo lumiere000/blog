@@ -1,7 +1,7 @@
 ---
 layout: article
 title: recommended wordpress plugin
-image: /img/wordpress.png
+cover: /img/wordpress.png
 tags: wordpress tools config website
 category: wordpress
 ---

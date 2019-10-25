@@ -1,7 +1,7 @@
 ---
 layout: article
 title: docker exec error
-image: /img/docker.png
+cover: /img/docker.png
 tags: docker installation ubuntu
 category: docker
 ---

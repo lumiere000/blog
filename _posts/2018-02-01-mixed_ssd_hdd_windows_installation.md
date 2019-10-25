@@ -1,7 +1,7 @@
 ---
 layout: article
 title: mixed ssd and tradition hdd windows installation
-image: /img/windows.png
+cover: /img/windows.png
 tags: windows config installation ssd
 category: windows
 ---

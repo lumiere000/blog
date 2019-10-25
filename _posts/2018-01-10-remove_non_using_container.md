@@ -1,7 +1,7 @@
 ---
 layout: article
 title: remove non-using docker containers
-image: /img/docker.png
+cover: /img/docker.png
 tags: docker installation ubuntu script
 category: docker
 ---

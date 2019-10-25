@@ -1,7 +1,7 @@
 ---
 layout: article
 title: show special charactors in markdown
-image: /img/markdown.png
+cover: /img/markdown.png
 tags: markdown syntax
 category: markdown
 ---

@@ -1,7 +1,7 @@
 ---
 layout: article
 title: atom sync-setting
-image: /img/atom.jpg
+cover: /img/atom.jpg
 tags: atom tools config
 category: tools
 ---

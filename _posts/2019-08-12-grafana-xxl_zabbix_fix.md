@@ -1,7 +1,7 @@
 ---
 layout: article
 title: grafana-xxl zabbix plugin fix
-image: /img/grafana.png
+cover: /img/grafana.png
 tags: config tools docker
 category: monitoring
 ---

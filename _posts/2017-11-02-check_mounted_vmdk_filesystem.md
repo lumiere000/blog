@@ -1,7 +1,7 @@
 ---
 layout: article
 title: check mounted vmdk filesystem on ubuntu
-image: /img/ubuntu.png
+cover: /img/ubuntu.png
 tags: shellscript ubuntu
 category: shellscript
 ---

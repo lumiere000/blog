@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Regular expression replacement for ip without dot
-image: /img/tools.jpg
+cover: /img/tools.jpg
 tags: website tools scripts
 category: scripts
 ---

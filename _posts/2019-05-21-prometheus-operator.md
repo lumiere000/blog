@@ -1,7 +1,7 @@
 ---
 layout: article
 title: installation and config of prometheus in k8s
-image: /img/prometheus.png
+cover: /img/prometheus.png
 tags: installation config tools monitoring k8s
 category: k8s
 ---

@@ -1,7 +1,7 @@
 ---
 layout: article
 title: kubernetes ha cluster deploy
-image: /img/k8s.png
+cover: /img/k8s.png
 tags: k8s kubernetes installation ubuntu kubeadm
 category: k8s
 ---

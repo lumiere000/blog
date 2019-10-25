@@ -1,7 +1,7 @@
 ---
 layout: article
 title: fully uninstall a program in mac os x by using terminal
-image: /img/apple.jpg
+cover: /img/apple.jpg
 tags: mac terminal uninstall
 category: apple
 ---

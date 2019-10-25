@@ -1,7 +1,7 @@
 ---
 layout: article
 title: docker logs and clear
-image: /img/docker.png
+cover: /img/docker.png
 tags: docker log
 category: docker
 ---

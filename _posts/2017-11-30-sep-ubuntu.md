@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Symantec endpoint ubuntu installation
-image: /img/symantec.png
+cover: /img/symantec.png
 tags: symantec endpoint installation ubuntu x64 security
 category: security
 ---

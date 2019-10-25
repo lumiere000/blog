@@ -5,7 +5,7 @@ article_header:
   type: cover
   image:
     src: /img/aws.png
-#image: /img/aws.png
+#cover: /img/aws.png
 tags: config network aws cloud
 category: cloud
 ---

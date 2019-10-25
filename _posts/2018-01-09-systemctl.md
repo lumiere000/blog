@@ -1,7 +1,7 @@
 ---
 layout: article
 title: systemctl usage
-image: /img/ubuntu.png
+cover: /img/ubuntu.png
 tags: shellscript ubuntu
 category: ubuntu
 ---

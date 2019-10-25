@@ -1,7 +1,7 @@
 ---
 layout: article
 title: apt-get update no public key
-image: /img/ubuntu.png
+cover: /img/ubuntu.png
 tags: error install ubuntu shellscript ubuntu
 category: ubuntu
 ---

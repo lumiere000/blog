@@ -1,7 +1,7 @@
 ---
 layout: article
 title: certbot docker example
-image: /img/docker.png
+cover: /img/docker.png
 tags: docker certbot SSL nginx web
 category: docker
 ---

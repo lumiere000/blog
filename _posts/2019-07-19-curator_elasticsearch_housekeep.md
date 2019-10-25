@@ -1,7 +1,7 @@
 ---
 layout: article
 title: curator elasticsearch housekeep
-image: /img/elasticsearch.png
+cover: /img/elasticsearch.png
 tags: installation config tools
 category: tools
 ---

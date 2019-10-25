@@ -1,7 +1,7 @@
 ---
 layout: article
 title: elasticsearch+logstash+kibana
-image: /img/elasticsearch.png
+cover: /img/elasticsearch.png
 tags: docker elasticsearch logstash kibana
 category: docker
 ---
