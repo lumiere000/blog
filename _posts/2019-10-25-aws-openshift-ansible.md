@@ -2,8 +2,8 @@
 #layout: article
 title: AWS Openshift cluster build by ansible
 article_header:
-  type: cover
-  image:
+  type: overlay
+  background_image:
     src: /img/aws.png
 #image: /img/aws.png
 tags: config openshift aws cloud
