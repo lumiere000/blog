@@ -7,7 +7,7 @@ category: cloud
 cover: /img/aws.png
 ---
 
-# this is a Openshift cluster build demo by ansible uses US-West AWS site
+### this is a Openshift cluster build demo by ansible uses US-West AWS site
 
 ### EC2 example of US-West(N. California)
 
