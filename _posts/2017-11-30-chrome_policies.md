@@ -1,7 +1,7 @@
 ---
 layout: article
 title: chrome policies delete
-cover: /img/chrome.jpg
+cover: /img/chrome.webp
 tags: security tools website windows batch
 category: security
 ---

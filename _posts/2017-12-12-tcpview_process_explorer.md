@@ -1,7 +1,7 @@
 ---
 layout: article
 title: tcpview and process explorer
-cover: /img/windows.png
+cover: /img/windows.webp
 tags: tools windows security monitoring network
 category: windows
 ---

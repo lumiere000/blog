@@ -1,7 +1,7 @@
 ---
 layout: article
 title: zabbix web monitoring with alert trigger
-cover: /img/zabbix.png
+cover: /img/zabbix.webp
 tags: zabbix monitoring config
 category: zabbix
 ---

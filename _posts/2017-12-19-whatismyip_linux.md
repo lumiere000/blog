@@ -1,7 +1,7 @@
 ---
 layout: article
 title: what is my ip address for linux
-cover: /img/tools.jpg
+cover: /img/tools.webp
 tags: tools scripts ubuntu shellscript google
 category: tools
 ---

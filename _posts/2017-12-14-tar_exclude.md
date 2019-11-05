@@ -1,7 +1,7 @@
 ---
 layout: article
 title: tar with multi directory exclude
-cover: /img/tools.jpg
+cover: /img/tools.webp
 tags: tools scripts ubuntu shellscript
 category: tools
 ---

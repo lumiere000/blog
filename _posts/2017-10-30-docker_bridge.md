@@ -1,7 +1,7 @@
 ---
 layout: article
 title: docker bridge
-cover: /img/docker.png
+cover: /img/docker.webp
 tags: docker network
 category: docker
 ---

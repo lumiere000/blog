@@ -1,7 +1,7 @@
 ---
 layout: article
 title: docker+zabbix+postgresql+snmptrap+zabbix_agent for ubuntu
-cover: /img/docker.png
+cover: /img/docker.webp
 tags: docker zabbix postgresql ubuntu monitoring
 category: docker
 ---

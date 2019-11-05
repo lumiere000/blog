@@ -1,7 +1,7 @@
 ---
 layout: article
 title: aws rds cross region peering
-cover: /img/aws.png
+cover: /img/aws.webp
 tags: config network aws cloud
 category: cloud
 ---

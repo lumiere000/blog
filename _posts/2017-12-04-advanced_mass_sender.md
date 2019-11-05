@@ -1,7 +1,7 @@
 ---
 layout: article
 title: remove advanced mass sender
-cover: /img/windows.png
+cover: /img/windows.webp
 tags: windows spyware antivirus rogue
 category: windows
 ---

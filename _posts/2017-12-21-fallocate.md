@@ -1,7 +1,7 @@
 ---
 layout: article
 title: fallocate
-cover: /img/ubuntu.png
+cover: /img/ubuntu.webp
 tags: security tools filesystem
 category: tools
 ---

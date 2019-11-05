@@ -1,7 +1,7 @@
 ---
 layout: article
 title: docker installation for ubuntu
-cover: /img/docker.png
+cover: /img/docker.webp
 tags: docker installation ubuntu
 category: docker
 ---

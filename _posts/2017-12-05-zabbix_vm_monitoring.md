@@ -1,7 +1,7 @@
 ---
 layout: article
 title: zabbix vm monitoring
-cover: /img/zabbix.png
+cover: /img/zabbix.webp
 tags: docker zabbix ubuntu monitoring vmware
 category: zabbix
 ---

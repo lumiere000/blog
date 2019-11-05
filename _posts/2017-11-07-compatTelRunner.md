@@ -1,7 +1,7 @@
 ---
 layout: article
 title: service host local system and compatTelRunner
-cover: /img/windows.png
+cover: /img/windows.webp
 tags: windows performance config
 category: windows
 ---

@@ -1,7 +1,7 @@
 ---
 layout: article
 title: excel override csv separate
-cover: /img/windows.png
+cover: /img/windows.webp
 tags: tools windows office excel
 category: windows
 ---

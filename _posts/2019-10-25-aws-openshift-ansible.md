@@ -1,10 +1,10 @@
 ---
 layout: article
 title: AWS Openshift cluster build by ansible
-#image: /img/aws.png
+#image: /img/aws.webp
 tags: config openshift aws cloud
 category: cloud
-cover: /img/aws.png
+cover: /img/aws.webp
 ---
 
 ### this is a Openshift cluster build demo by ansible uses US-West AWS site

@@ -1,7 +1,7 @@
 ---
 layout: article
 title: sentry docker-compose install
-cover: /img/sentry.png
+cover: /img/sentry.webp
 tags: docker compose installation sentry
 category: sentry
 ---

@@ -1,7 +1,7 @@
 ---
 layout: article
 title: kubernetes rke cluster deploy
-cover: /img/k8s.png
+cover: /img/k8s.webp
 tags: k8s kubernetes installation ubuntu rke
 category: k8s
 ---

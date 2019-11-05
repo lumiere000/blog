@@ -1,7 +1,7 @@
 ---
 layout: article
 title: combine and extract clonezilla gzip file to img file
-cover: /img/ubuntu.png
+cover: /img/ubuntu.webp
 tags: ubuntu installation tools clonezilla backup restore
 category: ubuntu
 ---

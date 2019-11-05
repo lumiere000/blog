@@ -1,7 +1,7 @@
 ---
 layout: article
 title: kaspersky self defense
-cover: /img/kaspersky.png
+cover: /img/kaspersky.webp
 tags: security kaspersky
 category: security
 ---

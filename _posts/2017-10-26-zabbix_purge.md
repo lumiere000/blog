@@ -1,7 +1,7 @@
 ---
 layout: article
 title: zabbix purge history with postgresql
-cover: /img/zabbix.png
+cover: /img/zabbix.webp
 tags: zabbix postgresql shellscript tools
 category: zabbix
 ---

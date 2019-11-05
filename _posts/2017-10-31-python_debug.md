@@ -1,7 +1,7 @@
 ---
 layout: article
 title: python debug mode, also can print logs to log file
-cover: /img/python.png
+cover: /img/python.webp
 tags: python debug logs
 category: python
 ---

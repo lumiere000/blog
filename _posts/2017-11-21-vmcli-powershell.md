@@ -1,7 +1,7 @@
 ---
 layout: article
 title: use vmcli to get vminfo
-cover: /img/vm.jpg
+cover: /img/vm.webp
 tags: vmware powershell tools installation windows
 category: vmware
 ---

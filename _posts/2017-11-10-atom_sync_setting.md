@@ -1,7 +1,7 @@
 ---
 layout: article
 title: atom sync-setting
-cover: /img/atom.jpg
+cover: /img/atom.webp
 tags: atom tools config
 category: tools
 ---

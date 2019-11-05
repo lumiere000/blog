@@ -1,7 +1,7 @@
 ---
 layout: article
 title: TCP Wrappers
-cover: /img/ubuntu.png
+cover: /img/ubuntu.webp
 tags: security monitoring network tools
 category: security
 ---

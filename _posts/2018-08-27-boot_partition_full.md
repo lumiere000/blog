@@ -1,7 +1,7 @@
 ---
 layout: article
 title: linux boot partition full
-cover: /img/ubuntu.png
+cover: /img/ubuntu.webp
 tags: ubuntu boot kernel partition system
 category: ubuntu
 ---

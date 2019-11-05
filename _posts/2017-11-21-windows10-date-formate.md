@@ -1,7 +1,7 @@
 ---
 layout: article
 title: windows 10 date format
-cover: /img/windows.png
+cover: /img/windows.webp
 tags: windows config
 category: windows
 ---

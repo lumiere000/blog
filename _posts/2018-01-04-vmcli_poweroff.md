@@ -1,7 +1,7 @@
 ---
 layout: article
 title: use vmcli poweroff guest in vcenter/hypervisor
-cover: /img/vm.jpg
+cover: /img/vm.webp
 tags: vmware powershell tools installation windows
 category: vmware
 ---

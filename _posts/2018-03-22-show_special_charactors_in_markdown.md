@@ -1,7 +1,7 @@
 ---
 layout: article
 title: show special charactors in markdown
-cover: /img/markdown.png
+cover: /img/markdown.webp
 tags: markdown syntax
 category: markdown
 ---

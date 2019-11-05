@@ -1,7 +1,7 @@
 ---
 layout: article
 title: docker compose auto start after reboot host
-cover: /img/docker.png
+cover: /img/docker.webp
 tags: docker installation ubuntu crontab config
 category: docker
 ---

@@ -1,7 +1,7 @@
 ---
 layout: article
 title: using python to send alert mail via gmail tls
-cover: /img/python.png
+cover: /img/python.webp
 tags: python mail monitoring
 category: python
 ---

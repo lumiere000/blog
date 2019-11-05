@@ -1,7 +1,7 @@
 ---
 layout: article
 title: using AOMEI Backupper for windows 10 live clone
-cover: /img/windows.png
+cover: /img/windows.webp
 tags: tools clone backup partition
 category: windows
 ---

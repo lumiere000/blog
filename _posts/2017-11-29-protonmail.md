@@ -1,7 +1,7 @@
 ---
 layout: article
 title: ProtonaMail - a more secure choose
-cover: /img/protonmail.png
+cover: /img/protonmail.webp
 tags: mail security website
 category: mail
 ---

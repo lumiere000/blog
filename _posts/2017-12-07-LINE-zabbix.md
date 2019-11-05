@@ -1,7 +1,7 @@
 ---
 layout: article
 title: use line messager for zabbix alert
-cover: /img/line.png
+cover: /img/line.webp
 tags: zabbix line ubuntu monitoring alert
 category: zabbix
 ---
