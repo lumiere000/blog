@@ -26,4 +26,4 @@ titles:
 key: accompanied-link
 ---
 
-[http://blog.technicalfever.com/](http://blog.technicalfever.com/)
+[http://blog.technicalfever.com/](http://calvinlam0124.github.io/)
