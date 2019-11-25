@@ -10,7 +10,9 @@ cover: /img/openshift.webp
 https://api.slack.com/apps
 
 ### get existing secret (config) of alertmanager
+```
 oc -n openshift-monitoring get secret alertmanager-main --template='{{ index .data "alertmanager.yaml" }}' |base64 -d > alertmanager.yaml
+```
 
 ### edit secret like this :
 in this example, receiver slack will be default receivier, every alert didn't match, will receive by it.
@@ -49,8 +51,12 @@ receivers:
 ```
 
 ### replace secret, normally will receive message after replace secret, it doesn't use test below
+```
 oc -n openshift-monitoring create secret generic alertmanager-main --from-file=alertmanager.yaml --dry-run -o=yaml |  oc -n openshift-monitoring replace secret --filename=-
+```
 
 ### test
+```
 oc -n openshift-monitoring exec -it alertmanager-main-0 bash
 curl -H "Content-Type: application/json" -d '[{"labels":{"alertname":"TestAlert1"}}]' localhost:9093/api/v1/alerts
+```
