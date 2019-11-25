@@ -7,7 +7,7 @@ cover: /img/openshift.webp
 ---
 
 ### go to api.slack.com/apps to create new app, get a api url
-https://api.slack.com/apps
+[https://api.slack.com/apps](https://api.slack.com/apps)
 
 ### get existing secret (config) of alertmanager
 ```
